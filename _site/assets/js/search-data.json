@@ -8,8 +8,8 @@
     "doc": "About",
     "title": "About",
     "content": "Icons modified from Freepik from www.flaticon.com . ",
-    "url": "http://localhost:4000/docs/about/",
-    "relUrl": "/docs/about/"
+    "url": "http://localhost:4000/about",
+    "relUrl": "/about"
   },"2": {
     "doc": "bcf",
     "title": "bcf",
