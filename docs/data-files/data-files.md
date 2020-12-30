@@ -6,7 +6,13 @@ has_children: true
 permalink: /data-files
 ---
 
-# UI Components
+# Data Files
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
-{: .fs-6 .fw-300 }
+| folder        | description          | something |
+|:-------------|:------------------|:------|
+| bcf/           | good swedish fish | nice  |
+| dest_mapped/ | good and plenty   | nice  |
+| gds/           | good `oreos`      | hmm   |
+| old/           | good `zoute` drop | yumm  |
+| paramTest/      | description     | date last modified?  |
+| vcf/  | something here  | something else here  |

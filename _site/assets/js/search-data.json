@@ -6,35 +6,29 @@
     "relUrl": "/docs/data-files/buttons/"
   },"1": {
     "doc": "Data Files",
-    "title": "UI Components",
-    "content": "To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed. ",
-    "url": "http://localhost:4000/data-files#ui-components",
-    "relUrl": "/data-files#ui-components"
-  },"2": {
-    "doc": "Data Files",
     "title": "Data Files",
-    "content": " ",
+    "content": "| folder | description | something | . | bcf/ | good swedish fish | nice | . | dest_mapped/ | good and plenty | nice | . | gds/ | good oreos | hmm | . | old/ | good zoute drop | yumm | . | paramTest/ | description | date last modified? | . | vcf/ | something here | something else here | . ",
     "url": "http://localhost:4000/data-files",
     "relUrl": "/data-files"
-  },"3": {
+  },"2": {
     "doc": "DrosEU",
     "title": "DrosEU",
     "content": "Check out the consortium that this project is a part of: drosEU.net . ",
     "url": "http://localhost:4000/drosEU",
     "relUrl": "/drosEU"
-  },"4": {
+  },"3": {
     "doc": "GitHub",
     "title": "GitHub",
     "content": "Link to GitHub here . | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
     "url": "http://localhost:4000/github",
     "relUrl": "/github"
-  },"5": {
+  },"4": {
     "doc": "Home",
     "title": "Home",
     "content": ". Insert summary info, citation, etc here . ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"6": {
+  },"5": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
