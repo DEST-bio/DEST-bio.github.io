@@ -5,192 +5,198 @@
     "url": "http://localhost:4000/data-files",
     "relUrl": "/data-files"
   },"1": {
+    "doc": "About",
+    "title": "About",
+    "content": "Icons modified from Freepik from www.flaticon.com . ",
+    "url": "http://localhost:4000/docs/about/",
+    "relUrl": "/docs/about/"
+  },"2": {
     "doc": "bcf",
     "title": "bcf",
     "content": "buttons buttons buttons . ",
     "url": "http://localhost:4000/data-files/bcf",
     "relUrl": "/data-files/bcf"
-  },"2": {
+  },"3": {
     "doc": "dest_mapped",
     "title": "Color Utilities",
     "content": " ",
     "url": "http://localhost:4000/data-files/dest-mapped#color-utilities",
     "relUrl": "/data-files/dest-mapped#color-utilities"
-  },"3": {
+  },"4": {
     "doc": "dest_mapped",
     "title": "Table of contents",
     "content": ". | Light Greys | Dark Greys | Purples | Blues | Greens | Yellows | Reds | . All the colors used in Just the Docs have been systematized into a series of variables that have been extended to both font color and background color utility classes. ",
     "url": "http://localhost:4000/data-files/dest-mapped#table-of-contents",
     "relUrl": "/data-files/dest-mapped#table-of-contents"
-  },"4": {
+  },"5": {
     "doc": "dest_mapped",
     "title": "Light Greys",
     "content": "| Color value | Font color utility | Background color utility | . | grey-lt-000 | .text-grey-lt-000 | .bg-grey-lt-000 | . | grey-lt-100 | .text-grey-lt-100 | .bg-grey-lt-100 | . | grey-lt-200 | .text-grey-lt-200 | .bg-grey-lt-200 | . | grey-lt-300 | .text-grey-lt-300 | .bg-grey-lt-300 | . ",
     "url": "http://localhost:4000/data-files/dest-mapped#light-greys",
     "relUrl": "/data-files/dest-mapped#light-greys"
-  },"5": {
+  },"6": {
     "doc": "dest_mapped",
     "title": "Dark Greys",
     "content": "| Color value | Font color utility | Background color utility | . | grey-dk-000 | .text-grey-dk-000 | .bg-grey-dk-000 | . | grey-dk-100 | .text-grey-dk-100 | .bg-grey-dk-100 | . | grey-dk-200 | .text-grey-dk-200 | .bg-grey-dk-200 | . | grey-dk-250 | .text-grey-dk-250 | .bg-grey-dk-250 | . | grey-dk-300 | .text-grey-dk-300 | .bg-grey-dk-300 | . ",
     "url": "http://localhost:4000/data-files/dest-mapped#dark-greys",
     "relUrl": "/data-files/dest-mapped#dark-greys"
-  },"6": {
+  },"7": {
     "doc": "dest_mapped",
     "title": "Purples",
     "content": "| Color value | Font color utility | Background color utility | . | purple-000 | .text-purple-000 | .bg-purple-000 | . | purple-100 | .text-purple-100 | .bg-purple-100 | . | purple-200 | .text-purple-200 | .bg-purple-200 | . | purple-300 | .text-purple-300 | .bg-purple-300 | . ",
     "url": "http://localhost:4000/data-files/dest-mapped#purples",
     "relUrl": "/data-files/dest-mapped#purples"
-  },"7": {
+  },"8": {
     "doc": "dest_mapped",
     "title": "Blues",
     "content": "| Color value | Font color utility | Background color utility | . | blue-000 | .text-blue-000 | .bg-blue-000 | . | blue-100 | .text-blue-100 | .bg-blue-100 | . | blue-200 | .text-blue-200 | .bg-blue-200 | . | blue-300 | .text-blue-300 | .bg-blue-300 | . ",
     "url": "http://localhost:4000/data-files/dest-mapped#blues",
     "relUrl": "/data-files/dest-mapped#blues"
-  },"8": {
+  },"9": {
     "doc": "dest_mapped",
     "title": "Greens",
     "content": "| Color value | Font color utility | Background color utility | . | green-000 | .text-green-000 | .bg-green-000 | . | green-100 | .text-green-100 | .bg-green-100 | . | green-200 | .text-green-200 | .bg-green-200 | . | green-300 | .text-green-300 | .bg-green-300 | . ",
     "url": "http://localhost:4000/data-files/dest-mapped#greens",
     "relUrl": "/data-files/dest-mapped#greens"
-  },"9": {
+  },"10": {
     "doc": "dest_mapped",
     "title": "Yellows",
     "content": "| Color value | Font color utility | Background color utility | . | yellow-000 | .text-yellow-000 | .bg-yellow-000 | . | yellow-100 | .text-yellow-100 | .bg-yellow-100 | . | yellow-200 | .text-yellow-200 | .bg-yellow-200 | . | yellow-300 | .text-yellow-300 | .bg-yellow-300 | . ",
     "url": "http://localhost:4000/data-files/dest-mapped#yellows",
     "relUrl": "/data-files/dest-mapped#yellows"
-  },"10": {
+  },"11": {
     "doc": "dest_mapped",
     "title": "Reds",
     "content": "| Color value | Font color utility | Background color utility | . | red-000 | .text-red-000 | .bg-red-000 | . | red-100 | .text-red-100 | .bg-red-100 | . | red-200 | .text-red-200 | .bg-red-200 | . | red-300 | .text-red-300 | .bg-red-300 | . ",
     "url": "http://localhost:4000/data-files/dest-mapped#reds",
     "relUrl": "/data-files/dest-mapped#reds"
-  },"11": {
+  },"12": {
     "doc": "dest_mapped",
     "title": "dest_mapped",
     "content": " ",
     "url": "http://localhost:4000/data-files/dest-mapped",
     "relUrl": "/data-files/dest-mapped"
-  },"12": {
+  },"13": {
     "doc": "DrosEU",
     "title": "DrosEU",
     "content": "Check out the consortium that this project is a part of: drosEU.net . ",
     "url": "http://localhost:4000/drosEU",
     "relUrl": "/drosEU"
-  },"13": {
+  },"14": {
     "doc": "gds",
     "title": "Layout Utilities",
     "content": " ",
     "url": "http://localhost:4000/data-files/gds#layout-utilities",
     "relUrl": "/data-files/gds#layout-utilities"
-  },"14": {
+  },"15": {
     "doc": "gds",
     "title": "Table of contents",
     "content": ". | Spacing | Horizontal Alignment | Vertical Alignment | Display | . ",
     "url": "http://localhost:4000/data-files/gds#table-of-contents",
     "relUrl": "/data-files/gds#table-of-contents"
-  },"15": {
+  },"16": {
     "doc": "gds",
     "title": "Spacing",
     "content": "These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does | . | .m- | margin | . | .mx- | margin-left, margin-right | . | .my- | margin top, margin bottom | . | .mt- | margin-top | . | .mr- | margin-right | . | .mb- | margin-bottom | . | .ml- | margin-left | . | Classname prefix | What it does | . | .p- | padding | . | .px- | padding-left, padding-right | . | .py- | padding top, padding bottom | . | .pt- | padding-top | . | .pr- | padding-right | . | .pb- | padding-bottom | . | .pl- | padding-left | . Spacing values are based on a 1rem = 16px spacing scale, broken down into these units: . | Spacer/suffix | Size in rems | Rem converted to px | . | 1 | 0.25rem | 4px | . | 2 | 0.5rem | 8px | . | 3 | 0.75rem | 12px | . | 4 | 1rem | 16px | . | 5 | 1.5rem | 24px | . | 6 | 2rem | 32px | . | 7 | 2.5rem | 40px | . | 8 | 3rem | 48px | . | auto | auto | auto | . Use mx-auto to horizontally center elements. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This paragraph will have a margin bottom of 1rem/16px at large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } . ",
     "url": "http://localhost:4000/data-files/gds#spacing",
     "relUrl": "/data-files/gds#spacing"
-  },"16": {
+  },"17": {
     "doc": "gds",
     "title": "Horizontal Alignment",
     "content": "| Classname | What it does | . | .float-left | float: left | . | .float-right | float: right | . | .flex-justify-start | justify-content: flex-start | . | .flex-justify-end | justify-content: flex-end | . | .flex-justify-between | justify-content: space-between | . | .flex-justify-around | justify-content: space-around | . Note: any of the flex- classes must be used on a parent element that has d-flex applied to it. ",
     "url": "http://localhost:4000/data-files/gds#horizontal-alignment",
     "relUrl": "/data-files/gds#horizontal-alignment"
-  },"17": {
+  },"18": {
     "doc": "gds",
     "title": "Vertical Alignment",
     "content": "| Classname | What it does | . | .v-align-baseline | vertical-align: baseline | . | .v-align-bottom | vertical-align: bottom | . | .v-align-middle | vertical-align: middle | . | .v-align-text-bottom | vertical-align: text-bottom | . | .v-align-text-top | vertical-align: text-top | . | .v-align-top | vertical-align: top | . ",
     "url": "http://localhost:4000/data-files/gds#vertical-alignment",
     "relUrl": "/data-files/gds#vertical-alignment"
-  },"18": {
+  },"19": {
     "doc": "gds",
     "title": "Display",
     "content": "Display classes aid in adapting the layout of the elements on a page: . | Class |   | . | .d-block | display: block | . | .d-flex | display: flex | . | .d-inline | display: inline | . | .d-inline-block | display: inline-block | . | .d-none | display: none | . Use these classes in conjunction with the responsive modifiers. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } . ",
     "url": "http://localhost:4000/data-files/gds#display",
     "relUrl": "/data-files/gds#display"
-  },"19": {
+  },"20": {
     "doc": "gds",
     "title": "gds",
     "content": " ",
     "url": "http://localhost:4000/data-files/gds",
     "relUrl": "/data-files/gds"
-  },"20": {
+  },"21": {
     "doc": "GitHub",
     "title": "GitHub",
     "content": "Link to GitHub here or in upper right hand corner (aux link) . ",
     "url": "http://localhost:4000/github",
     "relUrl": "/github"
-  },"21": {
+  },"22": {
     "doc": "Home",
     "title": "Home",
     "content": ". Insert summary info, citation, etc here . ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"22": {
+  },"23": {
     "doc": "old",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "http://localhost:4000/data-files/old#tables",
     "relUrl": "/data-files/old#tables"
-  },"23": {
+  },"24": {
     "doc": "old",
     "title": "old",
     "content": " ",
     "url": "http://localhost:4000/data-files/old",
     "relUrl": "/data-files/old"
-  },"24": {
+  },"25": {
     "doc": "paramTest",
     "title": "Typography Utilities",
     "content": " ",
     "url": "http://localhost:4000/data-files/paramTest#typography-utilities",
     "relUrl": "/data-files/paramTest#typography-utilities"
-  },"25": {
+  },"26": {
     "doc": "paramTest",
     "title": "Table of contents",
     "content": ". | Font size | Font weight | Line height | Text justification | . ",
     "url": "http://localhost:4000/data-files/paramTest#table-of-contents",
     "relUrl": "/data-files/paramTest#table-of-contents"
-  },"26": {
+  },"27": {
     "doc": "paramTest",
     "title": "Font size",
     "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
     "url": "http://localhost:4000/data-files/paramTest#font-size",
     "relUrl": "/data-files/paramTest#font-size"
-  },"27": {
+  },"28": {
     "doc": "paramTest",
     "title": "Font weight",
     "content": "Use the .fw-300 - .fw-700 to set an explicit font-size. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
     "url": "http://localhost:4000/data-files/paramTest#font-weight",
     "relUrl": "/data-files/paramTest#font-weight"
-  },"28": {
+  },"29": {
     "doc": "paramTest",
     "title": "Line height",
     "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
     "url": "http://localhost:4000/data-files/paramTest#line-height",
     "relUrl": "/data-files/paramTest#line-height"
-  },"29": {
+  },"30": {
     "doc": "paramTest",
     "title": "Text justification",
     "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
     "url": "http://localhost:4000/data-files/paramTest#text-justification",
     "relUrl": "/data-files/paramTest#text-justification"
-  },"30": {
+  },"31": {
     "doc": "paramTest",
     "title": "paramTest",
     "content": " ",
     "url": "http://localhost:4000/data-files/paramTest",
     "relUrl": "/data-files/paramTest"
-  },"31": {
+  },"32": {
     "doc": "vcf",
     "title": "Utilities",
     "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. ",
     "url": "http://localhost:4000/data-files/vcf#utilities",
     "relUrl": "/data-files/vcf#utilities"
-  },"32": {
+  },"33": {
     "doc": "vcf",
     "title": "vcf",
     "content": " ",
