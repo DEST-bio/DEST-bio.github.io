@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Buttons
+title: bcf
 parent: Data Files
-nav_order: 1
 ---
 
 buttons buttons buttons
