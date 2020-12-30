@@ -3,7 +3,7 @@ layout: default
 title: Data Files
 nav_order: 2
 has_children: true
-permalink: /docs/data-files
+permalink: /data-files
 ---
 
 # UI Components
