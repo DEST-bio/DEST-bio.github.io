@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Data Files",
     "title": "Data Files",
-    "content": "Add links to the child pages for each folder. Add description for each folder’s contents. Third column for any other information that can be added later . | folder | description | something | . | bcf/ | good swedish fish | nice | . | dest_mapped/ | good and plenty | nice | . | gds/ | good oreos | hmm | . | old/ | good zoute drop | yumm | . | paramTest/ | description | date last modified? | . | vcf/ | something here | something else here | . ",
+    "content": "Add links to the child pages for each folder. Add description for each folder’s contents. Third column for any other information that can be added later . | folder | description | something | . | bcf/ | hello world | nice | . | dest_mapped/ | foobar foobar | nice | . | gds/ | say something | hmm | . | old/ | foobar foobar | cool | . | paramTest/ | description | date last modified? | . | vcf/ | something here | something else here | . ",
     "url": "http://localhost:4000/data-files",
     "relUrl": "/data-files"
   },"1": {

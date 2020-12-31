@@ -13,9 +13,9 @@ Third column for any other information that can be added later
 
 | folder                                  | description       | something |
 |:----------------------------------------|:------------------|:----------|
-| [bcf/](/data-files/bcf)                 | good swedish fish | nice  |
-| [dest_mapped/](/data-files/dest-mapped) | good and plenty   | nice  |
-| [gds/](/data-files/gds)                 | good `oreos`      | hmm   |
-| [old/](/data-files/old)                 | good `zoute` drop | yumm  |
+| [bcf/](/data-files/bcf)                 | hello world       | nice  |
+| [dest_mapped/](/data-files/dest-mapped) | foobar foobar     | nice  |
+| [gds/](/data-files/gds)                 | say something     | hmm   |
+| [old/](/data-files/old)                 | foobar foobar     | cool  |
 | [paramTest/](/data-files/paramTest)     | description       | date last modified?  |
 | [vcf/](/data-files/vcf)                 | something here    | something else here  |
