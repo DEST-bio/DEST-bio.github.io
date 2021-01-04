@@ -12,59 +12,77 @@
     "relUrl": "/about"
   },"2": {
     "doc": "bcf",
+    "title": "As links",
+    "content": "Simplest/cleanest/minimalistic . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | . ",
+    "url": "http://localhost:4000/data-files/bcf#as-links",
+    "relUrl": "/data-files/bcf#as-links"
+  },"3": {
+    "doc": "bcf",
+    "title": "As data table with direct download links",
+    "content": "Probably most useful if you want to include more information along with the download . | File | description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | some | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | description | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | here | . ",
+    "url": "http://localhost:4000/data-files/bcf#as-data-table-with-direct-download-links",
+    "relUrl": "/data-files/bcf#as-data-table-with-direct-download-links"
+  },"4": {
+    "doc": "bcf",
+    "title": "As data table with download button",
+    "content": "| File Name | Download | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | Download | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | Download | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | Download | . ",
+    "url": "http://localhost:4000/data-files/bcf#as-data-table-with-download-button",
+    "relUrl": "/data-files/bcf#as-data-table-with-download-button"
+  },"5": {
+    "doc": "bcf",
     "title": "bcf",
-    "content": "buttons buttons buttons . ",
+    "content": "Store these links as links or data tables . ",
     "url": "http://localhost:4000/data-files/bcf",
     "relUrl": "/data-files/bcf"
-  },"3": {
+  },"6": {
     "doc": "dest_mapped",
     "title": "dest_mapped",
     "content": "dest files here . ",
     "url": "http://localhost:4000/data-files/dest-mapped",
     "relUrl": "/data-files/dest-mapped"
-  },"4": {
+  },"7": {
     "doc": "DrosEU",
     "title": "DrosEU",
     "content": "Check out the consortium that this project is a part of: drosEU.net . ",
     "url": "http://localhost:4000/drosEU",
     "relUrl": "/drosEU"
-  },"5": {
+  },"8": {
     "doc": "gds",
     "title": "gds",
     "content": "gds files here . ",
     "url": "http://localhost:4000/data-files/gds",
     "relUrl": "/data-files/gds"
-  },"6": {
+  },"9": {
     "doc": "GitHub",
     "title": "GitHub",
     "content": "Link to GitHub here or in upper right hand corner (aux link) . ",
     "url": "http://localhost:4000/github",
     "relUrl": "/github"
-  },"7": {
+  },"10": {
     "doc": "Home",
     "title": "Home",
     "content": ". Insert summary info, citation, etc here . ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"8": {
+  },"11": {
     "doc": "old",
     "title": "old",
     "content": "old files here . ",
     "url": "http://localhost:4000/data-files/old",
     "relUrl": "/data-files/old"
-  },"9": {
+  },"12": {
     "doc": "paramTest",
     "title": "paramTest",
     "content": "more files here. ",
     "url": "http://localhost:4000/data-files/paramTest",
     "relUrl": "/data-files/paramTest"
-  },"10": {
+  },"13": {
     "doc": "vcf",
     "title": "Utilities",
     "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. ",
     "url": "http://localhost:4000/data-files/vcf#utilities",
     "relUrl": "/data-files/vcf#utilities"
-  },"11": {
+  },"14": {
     "doc": "vcf",
     "title": "vcf",
     "content": " ",
