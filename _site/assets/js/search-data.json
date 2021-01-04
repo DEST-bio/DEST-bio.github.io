@@ -37,7 +37,7 @@
   },"6": {
     "doc": "dest_mapped",
     "title": "dest_mapped",
-    "content": "dest files here . ",
+    "content": "dest_mapped files here . Since there are a lot of subfolders in dest_mapped, will want to include simple list of links and nested links. Perhaps include a table at the top to offer a description? . ",
     "url": "http://localhost:4000/data-files/dest-mapped",
     "relUrl": "/data-files/dest-mapped"
   },"7": {
@@ -97,7 +97,7 @@
   },"16": {
     "doc": "vcf",
     "title": "vcf",
-    "content": "vcf files . ",
+    "content": "vcf files . Format like bcf . ",
     "url": "http://localhost:4000/data-files/vcf",
     "relUrl": "/data-files/vcf"
   }
