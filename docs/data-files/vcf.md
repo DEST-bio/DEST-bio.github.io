@@ -6,3 +6,5 @@ permalink: /data-files/vcf
 ---
 
 vcf files
+
+Format like [bcf](/data-files/bcf)
