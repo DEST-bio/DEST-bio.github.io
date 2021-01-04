@@ -6,4 +6,5 @@ permalink: /data-files/gds
 ---
 
 gds files here
-Format the same way as /bcf
+
+Format the same way as [/bcf](/data-files/bcf)
