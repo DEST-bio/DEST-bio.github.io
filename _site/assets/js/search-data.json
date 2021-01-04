@@ -49,7 +49,7 @@
   },"8": {
     "doc": "gds",
     "title": "gds",
-    "content": "gds files here . ",
+    "content": "gds files here Format the same way as /bcf . ",
     "url": "http://localhost:4000/data-files/gds",
     "relUrl": "/data-files/gds"
   },"9": {
