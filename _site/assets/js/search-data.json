@@ -6,71 +6,53 @@
     "relUrl": "/data-files"
   },"1": {
     "doc": "SNP Tables",
-    "title": "As links",
-    "content": "Simplest/cleanest/minimalistic . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | . ",
-    "url": "http://localhost:4000/data-files/SNP-tables#as-links",
-    "relUrl": "/data-files/SNP-tables#as-links"
-  },"2": {
-    "doc": "SNP Tables",
-    "title": "As data table with direct download links",
-    "content": "Probably most useful if you want to include more information along with the download . | File | description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | some | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | description | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | here | . ",
-    "url": "http://localhost:4000/data-files/SNP-tables#as-data-table-with-direct-download-links",
-    "relUrl": "/data-files/SNP-tables#as-data-table-with-direct-download-links"
-  },"3": {
-    "doc": "SNP Tables",
-    "title": "As data table with download button",
-    "content": "| File Name | Download | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | Download | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | Download | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | Download | . ",
-    "url": "http://localhost:4000/data-files/SNP-tables#as-data-table-with-download-button",
-    "relUrl": "/data-files/SNP-tables#as-data-table-with-download-button"
-  },"4": {
-    "doc": "SNP Tables",
     "title": "SNP Tables",
-    "content": "Store these links as links or data tables . ",
+    "content": "On This Page . | bcf Files | gds Files | vcf Files | . bcf Files . | File Name | Download | Description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | Download |   | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | Download |   | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | Download |   | . gds Files . | File Name | Download | Description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds | Download |   | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds | Download |   | . | dest.all.PoolSNP.001.50.10Nov2020.ann.gds | Download |   | . vcf Files . | File Name | Download | Description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.vcf.gz | Download |   | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.vcf.gz.tbi | Download |   | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.vcf.gz | Download |   | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.vcf.gz.tbi | Download |   | . | dest.all.PoolSNP.001.50.10Nov2020.ann.vcf.gz | Download |   | . | dest.all.PoolSNP.001.50.10Nov2020.ann.vcf.gz.tbi | Download |   | . ",
     "url": "http://localhost:4000/data-files/SNP-tables",
     "relUrl": "/data-files/SNP-tables"
-  },"5": {
+  },"2": {
     "doc": "About",
     "title": "About",
     "content": "Icons modified from Freepik from www.flaticon.com . ",
     "url": "http://localhost:4000/about",
     "relUrl": "/about"
-  },"6": {
+  },"3": {
     "doc": "DrosEU",
     "title": "DrosEU",
     "content": "Check out the consortium that this project is a part of: drosEU.net . ",
     "url": "http://localhost:4000/drosEU",
     "relUrl": "/drosEU"
-  },"7": {
+  },"4": {
     "doc": "GitHub",
     "title": "GitHub",
     "content": "Link to GitHub here or in upper right hand corner (aux link) . ",
     "url": "http://localhost:4000/github",
     "relUrl": "/github"
-  },"8": {
+  },"5": {
     "doc": "Home",
     "title": "Welcome to the DEST Browser",
     "content": ". Insert summary info, citation, etc here . ",
     "url": "http://localhost:4000/#welcome-to-the-dest-browser",
     "relUrl": "/#welcome-to-the-dest-browser"
-  },"9": {
+  },"6": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"10": {
+  },"7": {
     "doc": "Metadata",
     "title": "Metadata",
     "content": "vcf files . Format like bcf . ",
     "url": "http://localhost:4000/data-files/metadata",
     "relUrl": "/data-files/metadata"
-  },"11": {
+  },"8": {
     "doc": "Pipeline Output",
     "title": "Pipeline Output",
     "content": "gds files here . Format the same way as /bcf . ",
     "url": "http://localhost:4000/data-files/pipeline-output",
     "relUrl": "/data-files/pipeline-output"
-  },"12": {
+  },"9": {
     "doc": "Sync/BAM/bed Files",
     "title": "Sync/BAM/bed Files",
     "content": "dest_mapped files here . Since there are a lot of subfolders in dest_mapped, will want to include simple list of links and nested links. Perhaps include a table at the top to offer a description? . ",
