@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Data Files",
     "title": "Data Files",
-    "content": "Add links to the child pages for each folder. Add description for each folder’s contents. Third column for any other information that can be added later . | folder | description | something | . | SNP Tables | hello world | nice | . | Sync, BAM, and bed Files | foobar foobar | nice | . | Pipeline Output | say something | hmm | . | Metadata | something here | something else here | . ",
+    "content": "Add links to the child pages for each folder. Add description for each folder’s contents. Third column for any other information that can be added later . | folder | description | something | . | SNP Tables | hello world | nice | . | SYNC, BAM, and BED Files | foobar foobar | nice | . | Pipeline Output | say something | hmm | . | Metadata | something here | something else here | . ",
     "url": "http://localhost:4000/data-files",
     "relUrl": "/data-files"
   },"1": {
@@ -53,9 +53,39 @@
     "url": "http://localhost:4000/sourcecode",
     "relUrl": "/sourcecode"
   },"9": {
-    "doc": "Sync/BAM/bed Files",
-    "title": "Sync/BAM/bed Files",
-    "content": "dest_mapped files here . Since there are a lot of subfolders in dest_mapped, will want to include simple list of links and nested links. Perhaps include a table at the top to offer a description? . ",
+    "doc": "SYNC/BAM/BED Files",
+    "title": "SYNC, BAM, and BED files",
+    "content": "On This Page . | bed.gz | masked.sync.gz | SNAPE.monomorphic.masked.sync.gz | mel.bam | . Include bed.gz files, masked.sync.gz files (+tbi), SNAPE.monomorphic.masked files (+tbi), and mel.bam files . ",
+    "url": "http://localhost:4000/data-files/sync-bam-bed#sync-bam-and-bed-files",
+    "relUrl": "/data-files/sync-bam-bed#sync-bam-and-bed-files"
+  },"10": {
+    "doc": "SYNC/BAM/BED Files",
+    "title": "bed.gz",
+    "content": "Add a link to download a txt file with all of the hyperlinks . | File Name | Download | Description | . | hello world |   |   | . ",
+    "url": "http://localhost:4000/data-files/sync-bam-bed#bedgz",
+    "relUrl": "/data-files/sync-bam-bed#bedgz"
+  },"11": {
+    "doc": "SYNC/BAM/BED Files",
+    "title": "masked.sync.gz",
+    "content": "Link to download all links in a txt file Link to download all gz files (no tbi) Link to download all tbi files . | File Name | Download | Description | . | hello world |   |   | . ",
+    "url": "http://localhost:4000/data-files/sync-bam-bed#maskedsyncgz",
+    "relUrl": "/data-files/sync-bam-bed#maskedsyncgz"
+  },"12": {
+    "doc": "SYNC/BAM/BED Files",
+    "title": "SNAPE.monomorphic.masked.sync.gz",
+    "content": "Link to download all links in a txt file Link to download all gz files (no tbi) Link to download all tbi files . | File Name | Download | Description | . | hello world |   |   | . ",
+    "url": "http://localhost:4000/data-files/sync-bam-bed#snapemonomorphicmaskedsyncgz",
+    "relUrl": "/data-files/sync-bam-bed#snapemonomorphicmaskedsyncgz"
+  },"13": {
+    "doc": "SYNC/BAM/BED Files",
+    "title": "mel.bam",
+    "content": "Link to download all links in a txt file . | File Name | Download | Description | . | hello world |   |   | . ",
+    "url": "http://localhost:4000/data-files/sync-bam-bed#melbam",
+    "relUrl": "/data-files/sync-bam-bed#melbam"
+  },"14": {
+    "doc": "SYNC/BAM/BED Files",
+    "title": "SYNC/BAM/BED Files",
+    "content": " ",
     "url": "http://localhost:4000/data-files/sync-bam-bed",
     "relUrl": "/data-files/sync-bam-bed"
   }
