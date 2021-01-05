@@ -23,35 +23,35 @@
     "url": "http://localhost:4000/drosEU",
     "relUrl": "/drosEU"
   },"4": {
-    "doc": "GitHub",
-    "title": "GitHub",
-    "content": "Link to GitHub here or in upper right hand corner (aux link) . ",
-    "url": "http://localhost:4000/github",
-    "relUrl": "/github"
-  },"5": {
     "doc": "Home",
     "title": "Welcome to the DEST Browser",
     "content": ". Insert summary info, citation, etc here . ",
     "url": "http://localhost:4000/#welcome-to-the-dest-browser",
     "relUrl": "/#welcome-to-the-dest-browser"
-  },"6": {
+  },"5": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"7": {
+  },"6": {
     "doc": "Metadata",
     "title": "Metadata",
     "content": "vcf files . Format like bcf . ",
     "url": "http://localhost:4000/data-files/metadata",
     "relUrl": "/data-files/metadata"
-  },"8": {
+  },"7": {
     "doc": "Pipeline Output",
     "title": "Pipeline Output",
     "content": "gds files here . Format the same way as /bcf . ",
     "url": "http://localhost:4000/data-files/pipeline-output",
     "relUrl": "/data-files/pipeline-output"
+  },"8": {
+    "doc": "Source Code",
+    "title": "Source Code",
+    "content": "Link to GitHub here or in upper right hand corner (aux link) . ",
+    "url": "http://localhost:4000/sourcecode",
+    "relUrl": "/sourcecode"
   },"9": {
     "doc": "Sync/BAM/bed Files",
     "title": "Sync/BAM/bed Files",

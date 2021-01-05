@@ -1,8 +1,8 @@
 ---
 layout: default
-title: GitHub
+title: Source Code
 nav_order: 5
-permalink: /github
+permalink: /sourcecode
 ---
 
 Link to GitHub here or in upper right hand corner (aux link)
