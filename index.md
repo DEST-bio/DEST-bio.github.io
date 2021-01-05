@@ -4,6 +4,10 @@ title: Home
 nav_order: 1
 permalink: /
 ---
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
 # Welcome to the DEST Browser
 
 <!-- embedded DEST browser -->
