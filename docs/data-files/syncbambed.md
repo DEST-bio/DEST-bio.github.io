@@ -1,11 +1,51 @@
 ---
 layout: default
-title: Sync/BAM/bed Files
+title: SYNC/BAM/BED Files
 parent: Data Files
 permalink: /data-files/sync-bam-bed
 nav_order: 2
 ---
+## SYNC, BAM, and BED files
+{: .no_toc }
 
-dest_mapped files here
+<h4>On This Page</h4>
+1. TOC
+{:toc}
+<br>
+Include bed.gz files, masked.sync.gz files (+tbi), SNAPE.monomorphic.masked files (+tbi), and mel.bam files
 
-Since there are a lot of subfolders in dest_mapped, will want to include simple list of links and nested links. Perhaps include a table at the top to offer a description?
+## bed.gz
+
+Add a link to download a txt file with all of the hyperlinks
+
+| File Name                                    | Download       | Description   |
+|:----------------------------------------|:------------------|:------------------|
+| hello world   |   |   |
+
+## masked.sync.gz
+
+Link to download all links in a txt file
+Link to download all gz files (no tbi)
+Link to download all tbi files
+
+| File Name                                    | Download       | Description   |
+|:----------------------------------------|:------------------|:------------------|
+| hello world   |   |   |
+
+## SNAPE.monomorphic.masked.sync.gz
+
+Link to download all links in a txt file
+Link to download all gz files (no tbi)
+Link to download all tbi files
+
+| File Name                                    | Download       | Description   |
+|:----------------------------------------|:------------------|:------------------|
+| hello world   |   |   |
+
+## mel.bam
+
+Link to download all links in a txt file
+
+| File Name                                    | Download       | Description   |
+|:----------------------------------------|:------------------|:------------------|
+| hello world   |   |   |
