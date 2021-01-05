@@ -14,6 +14,6 @@ Third column for any other information that can be added later
 | folder                                  | description       | something |
 |:----------------------------------------|:------------------|:----------|
 | [SNP Tables](/data-files/SNP-tables)                 | hello world       | nice  |
-| [Sync, BAM, and bed Files](/data-files/sync-bam-bed) | foobar foobar     | nice  |
+| [SYNC, BAM, and BED Files](/data-files/sync-bam-bed) | foobar foobar     | nice  |
 | [Pipeline Output](/data-files/pipeline-output)                 | say something     | hmm   |
 | [Metadata](/data-files/metadata)                 | something here    | something else here  |
