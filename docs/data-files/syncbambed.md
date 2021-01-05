@@ -18,7 +18,7 @@ Include bed.gz files, masked.sync.gz files (+tbi), SNAPE.monomorphic.masked file
 
 Add a link to download a txt file with all of the hyperlinks
 
-| File Name                                    | Download       | Description   |
+| File Name                                    | Download       | Location/Time   |
 |:----------------------------------------|:------------------|:------------------|
 | hello world   |   |   |
 
@@ -28,7 +28,7 @@ Link to download all links in a txt file
 Link to download all gz files (no tbi)
 Link to download all tbi files
 
-| File Name                                    | Download       | Description   |
+| File Name                                    | Download       | Location/Time   |
 |:----------------------------------------|:------------------|:------------------|
 | hello world   |   |   |
 
@@ -38,7 +38,7 @@ Link to download all links in a txt file
 Link to download all gz files (no tbi)
 Link to download all tbi files
 
-| File Name                                    | Download       | Description   |
+| File Name                                    | Download       | Location/Time   |
 |:----------------------------------------|:------------------|:------------------|
 | hello world   |   |   |
 
@@ -46,6 +46,6 @@ Link to download all tbi files
 
 Link to download all links in a txt file
 
-| File Name                                    | Download       | Description   |
+| File Name                                    | Download       | Location/Time   |
 |:----------------------------------------|:------------------|:------------------|
 | hello world   |   |   |

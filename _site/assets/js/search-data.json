@@ -61,25 +61,25 @@
   },"10": {
     "doc": "SYNC/BAM/BED Files",
     "title": "bed.gz",
-    "content": "Add a link to download a txt file with all of the hyperlinks . | File Name | Download | Description | . | hello world |   |   | . ",
+    "content": "Add a link to download a txt file with all of the hyperlinks . | File Name | Download | Location/Time | . | hello world |   |   | . ",
     "url": "http://localhost:4000/data-files/sync-bam-bed#bedgz",
     "relUrl": "/data-files/sync-bam-bed#bedgz"
   },"11": {
     "doc": "SYNC/BAM/BED Files",
     "title": "masked.sync.gz",
-    "content": "Link to download all links in a txt file Link to download all gz files (no tbi) Link to download all tbi files . | File Name | Download | Description | . | hello world |   |   | . ",
+    "content": "Link to download all links in a txt file Link to download all gz files (no tbi) Link to download all tbi files . | File Name | Download | Location/Time | . | hello world |   |   | . ",
     "url": "http://localhost:4000/data-files/sync-bam-bed#maskedsyncgz",
     "relUrl": "/data-files/sync-bam-bed#maskedsyncgz"
   },"12": {
     "doc": "SYNC/BAM/BED Files",
     "title": "SNAPE.monomorphic.masked.sync.gz",
-    "content": "Link to download all links in a txt file Link to download all gz files (no tbi) Link to download all tbi files . | File Name | Download | Description | . | hello world |   |   | . ",
+    "content": "Link to download all links in a txt file Link to download all gz files (no tbi) Link to download all tbi files . | File Name | Download | Location/Time | . | hello world |   |   | . ",
     "url": "http://localhost:4000/data-files/sync-bam-bed#snapemonomorphicmaskedsyncgz",
     "relUrl": "/data-files/sync-bam-bed#snapemonomorphicmaskedsyncgz"
   },"13": {
     "doc": "SYNC/BAM/BED Files",
     "title": "mel.bam",
-    "content": "Link to download all links in a txt file . | File Name | Download | Description | . | hello world |   |   | . ",
+    "content": "Link to download all links in a txt file . | File Name | Download | Location/Time | . | hello world |   |   | . ",
     "url": "http://localhost:4000/data-files/sync-bam-bed#melbam",
     "relUrl": "/data-files/sync-bam-bed#melbam"
   },"14": {
