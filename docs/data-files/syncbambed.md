@@ -1,8 +1,9 @@
 ---
 layout: default
-title: dest_mapped
+title: Sync/BAM/bed Files
 parent: Data Files
-permalink: /data-files/dest-mapped
+permalink: /data-files/sync-bam-bed
+nav_order: 2
 ---
 
 dest_mapped files here

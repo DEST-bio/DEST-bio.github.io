@@ -1,8 +1,9 @@
 ---
 layout: default
-title: vcf
+title: Metadata
 parent: Data Files
-permalink: /data-files/vcf
+permalink: /data-files/metadata
+nav_order: 4
 ---
 
 vcf files

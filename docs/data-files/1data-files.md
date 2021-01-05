@@ -13,9 +13,7 @@ Third column for any other information that can be added later
 
 | folder                                  | description       | something |
 |:----------------------------------------|:------------------|:----------|
-| [bcf/](/data-files/bcf)                 | hello world       | nice  |
-| [dest_mapped/](/data-files/dest-mapped) | foobar foobar     | nice  |
-| [gds/](/data-files/gds)                 | say something     | hmm   |
-| [old/](/data-files/old)                 | foobar foobar     | cool  |
-| [paramTest/](/data-files/paramTest)     | description       | date last modified?  |
-| [vcf/](/data-files/vcf)                 | something here    | something else here  |
+| [SNP Tables](/data-files/SNP-tables)                 | hello world       | nice  |
+| [Sync, BAM, and bed Files](/data-files/sync-bam-bed) | foobar foobar     | nice  |
+| [Pipeline Output](/data-files/pipeline-output)                 | say something     | hmm   |
+| [Metadata](/data-files/metadata)                 | something here    | something else here  |

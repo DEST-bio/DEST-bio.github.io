@@ -1,8 +1,9 @@
 ---
 layout: default
-title: bcf
+title: SNP Tables
 parent: Data Files
-permalink: /data-files/bcf
+permalink: /data-files/SNP-tables
+nav_order: 1
 ---
 Store these links as links or data tables
 

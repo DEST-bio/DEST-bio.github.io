@@ -1,104 +1,80 @@
 {"0": {
     "doc": "Data Files",
     "title": "Data Files",
-    "content": "Add links to the child pages for each folder. Add description for each folder’s contents. Third column for any other information that can be added later . | folder | description | something | . | bcf/ | hello world | nice | . | dest_mapped/ | foobar foobar | nice | . | gds/ | say something | hmm | . | old/ | foobar foobar | cool | . | paramTest/ | description | date last modified? | . | vcf/ | something here | something else here | . ",
+    "content": "Add links to the child pages for each folder. Add description for each folder’s contents. Third column for any other information that can be added later . | folder | description | something | . | SNP Tables | hello world | nice | . | Sync, BAM, and bed Files | foobar foobar | nice | . | Pipeline Output | say something | hmm | . | Metadata | something here | something else here | . ",
     "url": "http://localhost:4000/data-files",
     "relUrl": "/data-files"
   },"1": {
+    "doc": "SNP Tables",
+    "title": "As links",
+    "content": "Simplest/cleanest/minimalistic . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | . ",
+    "url": "http://localhost:4000/data-files/SNP-tables#as-links",
+    "relUrl": "/data-files/SNP-tables#as-links"
+  },"2": {
+    "doc": "SNP Tables",
+    "title": "As data table with direct download links",
+    "content": "Probably most useful if you want to include more information along with the download . | File | description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | some | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | description | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | here | . ",
+    "url": "http://localhost:4000/data-files/SNP-tables#as-data-table-with-direct-download-links",
+    "relUrl": "/data-files/SNP-tables#as-data-table-with-direct-download-links"
+  },"3": {
+    "doc": "SNP Tables",
+    "title": "As data table with download button",
+    "content": "| File Name | Download | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | Download | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | Download | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | Download | . ",
+    "url": "http://localhost:4000/data-files/SNP-tables#as-data-table-with-download-button",
+    "relUrl": "/data-files/SNP-tables#as-data-table-with-download-button"
+  },"4": {
+    "doc": "SNP Tables",
+    "title": "SNP Tables",
+    "content": "Store these links as links or data tables . ",
+    "url": "http://localhost:4000/data-files/SNP-tables",
+    "relUrl": "/data-files/SNP-tables"
+  },"5": {
     "doc": "About",
     "title": "About",
     "content": "Icons modified from Freepik from www.flaticon.com . ",
     "url": "http://localhost:4000/about",
     "relUrl": "/about"
-  },"2": {
-    "doc": "bcf",
-    "title": "As links",
-    "content": "Simplest/cleanest/minimalistic . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | . ",
-    "url": "http://localhost:4000/data-files/bcf#as-links",
-    "relUrl": "/data-files/bcf#as-links"
-  },"3": {
-    "doc": "bcf",
-    "title": "As data table with direct download links",
-    "content": "Probably most useful if you want to include more information along with the download . | File | description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | some | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | description | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | here | . ",
-    "url": "http://localhost:4000/data-files/bcf#as-data-table-with-direct-download-links",
-    "relUrl": "/data-files/bcf#as-data-table-with-direct-download-links"
-  },"4": {
-    "doc": "bcf",
-    "title": "As data table with download button",
-    "content": "| File Name | Download | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | Download | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | Download | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | Download | . ",
-    "url": "http://localhost:4000/data-files/bcf#as-data-table-with-download-button",
-    "relUrl": "/data-files/bcf#as-data-table-with-download-button"
-  },"5": {
-    "doc": "bcf",
-    "title": "bcf",
-    "content": "Store these links as links or data tables . ",
-    "url": "http://localhost:4000/data-files/bcf",
-    "relUrl": "/data-files/bcf"
   },"6": {
-    "doc": "dest_mapped",
-    "title": "dest_mapped",
-    "content": "dest_mapped files here . Since there are a lot of subfolders in dest_mapped, will want to include simple list of links and nested links. Perhaps include a table at the top to offer a description? . ",
-    "url": "http://localhost:4000/data-files/dest-mapped",
-    "relUrl": "/data-files/dest-mapped"
-  },"7": {
     "doc": "DrosEU",
     "title": "DrosEU",
     "content": "Check out the consortium that this project is a part of: drosEU.net . ",
     "url": "http://localhost:4000/drosEU",
     "relUrl": "/drosEU"
-  },"8": {
-    "doc": "gds",
-    "title": "gds",
-    "content": "gds files here . Format the same way as /bcf . ",
-    "url": "http://localhost:4000/data-files/gds",
-    "relUrl": "/data-files/gds"
-  },"9": {
+  },"7": {
     "doc": "GitHub",
     "title": "GitHub",
     "content": "Link to GitHub here or in upper right hand corner (aux link) . ",
     "url": "http://localhost:4000/github",
     "relUrl": "/github"
-  },"10": {
+  },"8": {
     "doc": "Home",
     "title": "Welcome to the DEST Browser",
     "content": ". Insert summary info, citation, etc here . ",
     "url": "http://localhost:4000/#welcome-to-the-dest-browser",
     "relUrl": "/#welcome-to-the-dest-browser"
-  },"11": {
+  },"9": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"12": {
-    "doc": "old/paramTest",
-    "title": "old/paramTest",
-    "content": "old/paramtest . ",
-    "url": "http://localhost:4000/data-files/old/paramTest",
-    "relUrl": "/data-files/old/paramTest"
-  },"13": {
-    "doc": "old/privateSNPs",
-    "title": "old/privateSNPs",
-    "content": "old/privateSNPs . ",
-    "url": "http://localhost:4000/data-files/old/privateSNPs",
-    "relUrl": "/data-files/old/privateSNPs"
-  },"14": {
-    "doc": "old",
-    "title": "old",
-    "content": "Can format as simple nested links or as grandchild pages. Simple nested links would show the list as it is below, but the sidebar would not show “old/paramTest” or “old/privateSNPs.” Keeping them as grandchild pages would maintain both the list below and the sublinks in the sidebar. Recommend simple nested links for cleanliness of the sidebar, especially when there are more than two sublevels, but the sidebar dropdown might look a little more user-friendly. paramTest/ privateSNPs/ all.txt allpops.names allpops.sites . ",
-    "url": "http://localhost:4000/data-files/old",
-    "relUrl": "/data-files/old"
-  },"15": {
-    "doc": "paramTest",
-    "title": "paramTest",
-    "content": "more files here. Same format as /bcf . ",
-    "url": "http://localhost:4000/data-files/paramTest",
-    "relUrl": "/data-files/paramTest"
-  },"16": {
-    "doc": "vcf",
-    "title": "vcf",
+  },"10": {
+    "doc": "Metadata",
+    "title": "Metadata",
     "content": "vcf files . Format like bcf . ",
-    "url": "http://localhost:4000/data-files/vcf",
-    "relUrl": "/data-files/vcf"
+    "url": "http://localhost:4000/data-files/metadata",
+    "relUrl": "/data-files/metadata"
+  },"11": {
+    "doc": "Pipeline Output",
+    "title": "Pipeline Output",
+    "content": "gds files here . Format the same way as /bcf . ",
+    "url": "http://localhost:4000/data-files/pipeline-output",
+    "relUrl": "/data-files/pipeline-output"
+  },"12": {
+    "doc": "Sync/BAM/bed Files",
+    "title": "Sync/BAM/bed Files",
+    "content": "dest_mapped files here . Since there are a lot of subfolders in dest_mapped, will want to include simple list of links and nested links. Perhaps include a table at the top to offer a description? . ",
+    "url": "http://localhost:4000/data-files/sync-bam-bed",
+    "relUrl": "/data-files/sync-bam-bed"
   }
 }
