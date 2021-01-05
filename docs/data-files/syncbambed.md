@@ -5,14 +5,15 @@ parent: Data Files
 permalink: /data-files/sync-bam-bed
 nav_order: 2
 ---
+<!-- IF YOU'RE TRYING TO MAKE A SIGNIFICANT UPDATE THE FILE TABLES: -->
+<!-- First edit the information in a csv, then convert it to markdown in an online converter -->
+<!-- then just copy and paste the markdown table into here -->
 ## SYNC, BAM, and BED files
 {: .no_toc }
 
 <h4>On This Page</h4>
 1. TOC
 {:toc}
-<br>
-Include bed.gz files, masked.sync.gz files (+tbi), SNAPE.monomorphic.masked files (+tbi), and mel.bam files
 
 ## bed.gz
 
