@@ -20,11 +20,7 @@ nav_order: 2
 <details open markdown="block">
 <summary>Toggle Table</summary>
 
-Add a link to download a txt file with all of the hyperlinks
-
-| File Name                                    | Download       | Location/Time   |
-|:----------------------------------------|:------------------|:------------------|
-| hello world   |   |   |
+{% include bed.gz.html %}
 
 [Back To Top](/data-files/sync-bam-bed/#top)
 </details>
