@@ -19,4 +19,5 @@ awk 'BEGIN{FS=OFS=","} {
   print $3 FS "[Download]("$1")\{: .btn .btn-purple \}" FS $4
 }' bed.gz.csv > bed.gz.TOMARKDOWN.csv
 # remove any unnecessary spaces with Excel "Find and Replace"
+# you can delete temp.csv
 # now convert to markdown
