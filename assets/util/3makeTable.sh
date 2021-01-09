@@ -21,3 +21,36 @@ awk 'BEGIN{FS=OFS=","} {
 # remove any unnecessary spaces with Excel "Find and Replace"
 # you can delete temp.csv
 # now convert to markdown
+
+#### same with masked.sync.gz
+cat masked.sync.gz.csv |
+awk -F"," '{
+  print $1,","$(NF-1),","$NF
+}' > temp.csv
+cat temp.csv > masked.sync.gz.csv
+
+awk 'BEGIN{FS=OFS=","} {
+  print $3 FS "[Download]("$1")\{: .btn .btn-purple \}" FS $4
+}' masked.sync.gz.csv > masked.sync.gz.TOMARKDOWN.csv
+
+#### same with SNAPE.monomorphic.masked.sync.gz
+cat SNAPE.monomorphic.masked.sync.gz.csv |
+awk -F"," '{
+  print $1,","$(NF-1),","$NF
+}' > temp.csv
+cat temp.csv > SNAPE.monomorphic.masked.sync.gz.csv
+
+awk 'BEGIN{FS=OFS=","} {
+  print $3 FS "[Download]("$1")\{: .btn .btn-purple \}" FS $4
+}' masked.sync.gz.csv > SNAPE.monomorphic.masked.sync.gz.TOMARKDOWN.csv
+
+#### same with mel.bam
+cat mel.bam.csv |
+awk -F"," '{
+  print $1,","$(NF-1),","$NF
+}' > temp.csv
+cat temp.csv > mel.bam.csv
+
+awk 'BEGIN{FS=OFS=","} {
+  print $3 FS "[Download]("$1")\{: .btn .btn-purple \}" FS $4
+}' mel.bam.csv > mel.bam.TOMARKDOWN.csv
