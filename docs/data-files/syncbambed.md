@@ -15,10 +15,10 @@ nav_order: 2
 1. TOC
 {:toc}
 
-All data tables are scrollable. 
+All data tables are scrollable. Clicking the download button will start a direct download, or you can Right Click + Copy Link.
 
 ## bed.gz
-<a href="/assets/bed.gz.ALL.txt" download> Click to download file links in a .txt file </a>
+<a href="/assets/bed.gz.ALL.txt" download> Click for a .txt file with a list of all download links</a>
 
 <details open markdown="block">
 <summary>Toggle Table</summary>
@@ -33,7 +33,7 @@ All data tables are scrollable.
 </details>
 
 ## masked.sync.gz
-<a href="/assets/masked.sync.gz.ALL.txt" download> Click to download file links in a .txt file </a>
+<a href="/assets/masked.sync.gz.ALL.txt" download> Click for a .txt file with a list of all download links </a>
 
 Link to download all gz files (no tbi)?<br>
 Link to download all tbi files?
@@ -51,7 +51,7 @@ Link to download all tbi files?
 </details>
 
 ## SNAPE.monomorphic.masked.sync.gz
-<a href="/assets/SNAPE.monomorphic.masked.sync.gz.ALL.txt" download> Click to download file links in a .txt file </a>
+<a href="/assets/SNAPE.monomorphic.masked.sync.gz.ALL.txt" download> Click for a .txt file with a list of all download links </a>
 
 Link to download all gz files (no tbi)
 Link to download all tbi files
@@ -67,7 +67,7 @@ Link to download all tbi files
 </details>
 
 ## mel.bam
-<a href="/assets/mel.bam.ALL.txt" download> Click to download file links in a .txt file </a>
+<a href="/assets/mel.bam.ALL.txt" download> Click for a .txt file with a list of all download links </a>
 
 <details open markdown="block">
 <summary>Toggle Table</summary>
