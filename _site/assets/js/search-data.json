@@ -5,17 +5,17 @@
     "url": "http://localhost:4000/data-files",
     "relUrl": "/data-files"
   },"1": {
+    "doc": "DEST Browser",
+    "title": "DEST Browser",
+    "content": "Embed DEST browser here . ",
+    "url": "http://localhost:4000/dest-browser",
+    "relUrl": "/dest-browser"
+  },"2": {
     "doc": "SNP Tables",
     "title": "SNP Tables",
     "content": "On This Page . | bcf Files | gds Files | vcf Files | . bcf Files . | File Name | Download | Description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf | Download |   | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | Download |   | . | dest.all.PoolSNP.001.50.10Nov2020.header.bcf | Download |   | . gds Files . | File Name | Download | Description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds | Download |   | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds | Download |   | . | dest.all.PoolSNP.001.50.10Nov2020.ann.gds | Download |   | . vcf Files . | File Name | Download | Description | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.vcf.gz | Download |   | . | dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.vcf.gz.tbi | Download |   | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.vcf.gz | Download |   | . | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.vcf.gz.tbi | Download |   | . | dest.all.PoolSNP.001.50.10Nov2020.ann.vcf.gz | Download |   | . | dest.all.PoolSNP.001.50.10Nov2020.ann.vcf.gz.tbi | Download |   | . ",
     "url": "http://localhost:4000/data-files/SNP-tables",
     "relUrl": "/data-files/SNP-tables"
-  },"2": {
-    "doc": "About",
-    "title": "About",
-    "content": "Icons modified from Freepik from www.flaticon.com . ",
-    "url": "http://localhost:4000/about",
-    "relUrl": "/about"
   },"3": {
     "doc": "DrosEU",
     "title": "DrosEU",
@@ -25,7 +25,7 @@
   },"4": {
     "doc": "Home",
     "title": "Welcome to the DEST Browser",
-    "content": ". Insert summary info, citation, etc here . ",
+    "content": "Insert summary info, citation, etc here . Transfer About section here . Icons modified from Freepik from www.flaticon.com . ",
     "url": "http://localhost:4000/#welcome-to-the-dest-browser",
     "relUrl": "/#welcome-to-the-dest-browser"
   },"5": {
