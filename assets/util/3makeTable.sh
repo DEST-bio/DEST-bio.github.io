@@ -54,3 +54,14 @@ cat temp.csv > mel.bam.csv
 awk 'BEGIN{FS=OFS=","} {
   print $3 FS "[Download]("$1")\{: .btn .btn-purple \}" FS $4
 }' mel.bam.csv > mel.bam.TOMARKDOWN.csv
+
+##### Pipeline Output
+cat pipeline_output.csv | \
+awk -F"," 'BEGIN{FS=OFS=","}{
+  print $1","$4
+}' > temp.csv
+#switch the order of the rows in excel afterwards. then add in an "x" in the third column
+#have to do it this way otherwise the spacing is off
+awk 'BEGIN{FS=OFS=","} {
+  print $1 FS "[Link]("$2")\{: .btn .btn-purple \}"
+}' temp.csv > pipeline_output.TOMARKDOWN.csv
