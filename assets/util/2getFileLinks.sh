@@ -35,3 +35,12 @@ grep -v '.bai' splitlinks.csv | \
 awk -F"," '{
   if( index($0,"mel.bam")!=0 ) {print $0}
 }' > mel.bam.csv
+
+###########################
+# Get pipeline output links
+###########################
+grep -vE 'fastqc|trimmed'  splitlinks.csv | \
+grep 'pipeline_output' | \
+awk -F"," '{
+  if( index($NF,".")==0 ){print $0}
+}' > pipeline_output.csv

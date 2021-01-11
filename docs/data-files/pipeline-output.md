@@ -6,6 +6,4 @@ permalink: /data-files/pipeline-output
 nav_order: 3
 ---
 
-gds files here
-
-Format the same way as [/bcf](/data-files/bcf)
+The following table contains hyperlinks to the original index folders with the pipeline output for each sample. 

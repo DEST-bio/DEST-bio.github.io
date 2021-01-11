@@ -43,7 +43,7 @@
   },"7": {
     "doc": "Pipeline Output",
     "title": "Pipeline Output",
-    "content": "gds files here . Format the same way as /bcf . ",
+    "content": "The following table contains hyperlinks to the original index folders with the pipeline output for each sample. ",
     "url": "http://localhost:4000/data-files/pipeline-output",
     "relUrl": "/data-files/pipeline-output"
   },"8": {
