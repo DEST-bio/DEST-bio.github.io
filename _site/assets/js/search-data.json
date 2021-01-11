@@ -55,7 +55,7 @@
   },"9": {
     "doc": "SYNC/BAM/BED Files",
     "title": "SYNC, BAM, and BED files",
-    "content": "On This Page . | bed.gz | masked.sync.gz | SNAPE.monomorphic.masked.sync.gz | mel.bam | . All data tables are scrollable . ",
+    "content": "On This Page . | bed.gz | masked.sync.gz | SNAPE.monomorphic.masked.sync.gz | mel.bam | . All data tables are scrollable. ",
     "url": "http://localhost:4000/data-files/sync-bam-bed#sync-bam-and-bed-files",
     "relUrl": "/data-files/sync-bam-bed#sync-bam-and-bed-files"
   },"10": {

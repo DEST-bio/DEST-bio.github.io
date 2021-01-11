@@ -8,14 +8,14 @@ nav_order: 2
 <!-- IF YOU'RE TRYING TO MAKE A SIGNIFICANT UPDATE THE FILE TABLES: -->
 <!-- First edit the information in a csv, then convert it to markdown in an online converter -->
 <!-- then just copy and paste the markdown table into the appropriate includes file -->
-## SYNC, BAM, and BED files
+# SYNC, BAM, and BED files
 {: .no_toc }
 
 <h4>On This Page</h4>
 1. TOC
 {:toc}
 
-All data tables are scrollable 
+All data tables are scrollable. 
 
 ## bed.gz
 <a href="/assets/bed.gz.ALL.txt" download> Click to download file links in a .txt file </a>
