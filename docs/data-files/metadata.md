@@ -6,6 +6,4 @@ permalink: /data-files/metadata
 nav_order: 4
 ---
 
-vcf files
-
-Format like [bcf](/data-files/bcf)
+Link to the GitHub metatdata repo or download all the files? 

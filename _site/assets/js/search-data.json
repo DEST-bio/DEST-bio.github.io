@@ -37,7 +37,7 @@
   },"6": {
     "doc": "Metadata",
     "title": "Metadata",
-    "content": "vcf files . Format like bcf . ",
+    "content": "Link to the GitHub metatdata repo or download all the files? . ",
     "url": "http://localhost:4000/data-files/metadata",
     "relUrl": "/data-files/metadata"
   },"7": {
