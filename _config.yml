@@ -65,7 +65,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "DEST-bio on GitHub":
-    - "https://example.com"
+    - "https://github.com/DEST-bio/DEST_freeze1"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
