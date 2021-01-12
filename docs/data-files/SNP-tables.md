@@ -16,9 +16,9 @@ nav_order: 1
 
 | File Name                                    | Download       | Description   |
 |:----------------------------------------|:------------------|:------------------|
-| dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf               | [Download](http://berglandlab.uvadcos.io/bcf/dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf){: .btn .btn-purple }     | |
-| dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | [Download](http://berglandlab.uvadcos.io/bcf/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf){: .btn .btn-purple }    | |
-| dest.all.PoolSNP.001.50.10Nov2020.header.bcf            | [Download](http://berglandlab.uvadcos.io/bcf/dest.all.PoolSNP.001.50.10Nov2020.header.bcf){: .btn .btn-purple }        | |
+| dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf               | [Download](http://berglandlab.uvadcos.io/bcf/dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf){: .btn .btn-purple }     | PoolSeq samples using PoolSNP |
+| dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf | [Download](http://berglandlab.uvadcos.io/bcf/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf){: .btn .btn-purple }    | PoolSeq samples using SNAPE |
+| dest.all.PoolSNP.001.50.10Nov2020.header.bcf            | [Download](http://berglandlab.uvadcos.io/bcf/dest.all.PoolSNP.001.50.10Nov2020.header.bcf){: .btn .btn-purple }        | All samples using PoolSNP |
 
 ### gds Files
 
