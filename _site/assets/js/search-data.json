@@ -37,7 +37,7 @@
   },"6": {
     "doc": "Metadata",
     "title": "Metadata",
-    "content": "Link to the GitHub metatdata repo or download all the files? . ",
+    "content": "Click the button below to link to the data table containing the metadata for all of the DEST samples. Main metadata table . ",
     "url": "http://localhost:4000/data-files/metadata",
     "relUrl": "/data-files/metadata"
   },"7": {
