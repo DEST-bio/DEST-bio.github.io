@@ -33,10 +33,9 @@ All data tables are scrollable. Clicking the download button will start a direct
 </details>
 
 ## masked.sync.gz
-<a href="/assets/masked.sync.gz.ALL.txt" download> Click for a .txt file with a list of all download links </a>
-
-Link to download all gz files (no tbi)?<br>
-Link to download all tbi files?
+<a href="/assets/masked.sync.gz.ALL.txt" download> Click for a .txt file with a list of ALL download links </a>
+<a href="/assets/masked.sync.gz.GZONLY.txt" download> Click for a .txt file with only .gz download links (no .tbi) </a>
+<a href="/assets/masked.sync.gz.TBIONLY.txt" download> Click for a .txt file with only .gz.tbi download links </a>
 
 <details open markdown="block">
 <summary>Toggle Table</summary>
@@ -51,10 +50,9 @@ Link to download all tbi files?
 </details>
 
 ## SNAPE.monomorphic.masked.sync.gz
-<a href="/assets/SNAPE.monomorphic.masked.sync.gz.ALL.txt" download> Click for a .txt file with a list of all download links </a>
-
-Link to download all gz files (no tbi)
-Link to download all tbi files
+<a href="/assets/SNAPE.monomorphic.masked.sync.gz.ALL.txt" download> Click for a .txt file with a list of ALL download links </a>
+<a href="/assets/SNAPE.monomorphic.masked.sync.gz.GZONLY.txt" download> Click for a .txt file with only .gz download links (no .tbi) </a>
+<a href="/assets/SNAPE.monomorphic.masked.sync.gz.TBIONLY.txt" download> Click for a .txt file with only .gz.tbi download links </a>
 
 <details open markdown="block">
 <summary>Toggle Table</summary>
