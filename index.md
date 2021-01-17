@@ -13,6 +13,8 @@ Insert summary info, citation, etc here
 
 Transfer About section here
 
+<img src="/assets/images/map-timeline.png" style="width:100%">
+
 ---
 
 Icons modified from [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](www.flaticon.com)
