@@ -8,7 +8,7 @@ permalink: /
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
-# Welcome to the DEST Browser
+# Welcome to the DEST Dataset
 Insert summary info, citation, etc here
 
 Transfer About section here

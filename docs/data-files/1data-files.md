@@ -8,12 +8,11 @@ has_toc: false
 ---
 
 # Data Files
-Add links to the child pages for each folder. Add description for each folder's contents.
-Third column for any other information that can be added later
 
-| folder                                  | description       | something |
-|:----------------------------------------|:------------------|:----------|
-| [SNP Tables](/data-files/SNP-tables)                 | hello world       | nice  |
-| [SYNC, BAM, and BED Files](/data-files/sync-bam-bed) | foobar foobar     | nice  |
-| [Pipeline Output](/data-files/pipeline-output)                 | say something     | hmm   |
-| [Metadata](/data-files/metadata)                 | something here    | something else here  |
+
+| folder                                  | description       |
+|:----------------------------------------|:------------------|
+| [SNP Tables](/data-files/SNP-tables)                 | Final SNP tables for PoolSNP and SNAPE (VCF/BCF/GDS) |
+| [SYNC, BAM, and BED Files](/data-files/sync-bam-bed) | gSYNC files, BED filtering files, BAM files | 
+| [Pipeline Output](/data-files/pipeline-output)                 | Full output of the mapping pipeline  |
+| [Metadata](/data-files/metadata)                 | Collection metadata |
