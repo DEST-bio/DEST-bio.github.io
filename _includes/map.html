@@ -39,7 +39,7 @@
 
     var markers = []; /* set an empty array first */
     d3.csv(
-      "http://raw.githubusercontent.com/DEST-bio/DEST_freeze1/main/populationInfo/samps.csv",
+      "https://raw.githubusercontent.com/DEST-bio/DEST_freeze1/main/populationInfo/samps.csv",
       function (data) {
         console.log("trying3");
         for (var i = 0; i < data.length - 1; i++) {
@@ -58,7 +58,7 @@
 
     /* Load external data and boot */
     d3.json(
-      "http://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
+      "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
       function (data) {
         /* Draw the map */
         svg
