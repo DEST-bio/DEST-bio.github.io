@@ -1,13 +1,13 @@
 {"0": {
     "doc": "Data Files",
     "title": "Data Files",
-    "content": "Add links to the child pages for each folder. Add description for each folder’s contents. Third column for any other information that can be added later . | folder | description | something | . | SNP Tables | hello world | nice | . | SYNC, BAM, and BED Files | foobar foobar | nice | . | Pipeline Output | say something | hmm | . | Metadata | something here | something else here | . ",
+    "content": "| folder | description | . | SNP Tables | Final SNP tables for PoolSNP and SNAPE (VCF/BCF/GDS) | . | SYNC, BAM, and BED Files | gSYNC files, BED filtering files, BAM files | . | Pipeline Output | Full output of the mapping pipeline | . | Metadata | Collection metadata | . ",
     "url": "http://localhost:4000/data-files",
     "relUrl": "/data-files"
   },"1": {
     "doc": "DEST Browser",
     "title": "DEST Browser",
-    "content": "Embed DEST browser here . http://dgvbrowser.uab.cat/dest/browser/ . Browser link . ",
+    "content": "Embed DEST browser here . http://dest-bio.uab.cat . Browser link . ",
     "url": "http://localhost:4000/dest-browser",
     "relUrl": "/dest-browser"
   },"2": {
@@ -18,10 +18,10 @@
     "relUrl": "/data-files/SNP-tables"
   },"3": {
     "doc": "Home",
-    "title": "Welcome to the DEST Browser",
+    "title": "Welcome to the DEST Dataset",
     "content": "Insert summary info, citation, etc here . Transfer About section here . Icons modified from Freepik from www.flaticon.com . ",
-    "url": "http://localhost:4000/#welcome-to-the-dest-browser",
-    "relUrl": "/#welcome-to-the-dest-browser"
+    "url": "http://localhost:4000/#welcome-to-the-dest-dataset",
+    "relUrl": "/#welcome-to-the-dest-dataset"
   },"4": {
     "doc": "Home",
     "title": "Home",

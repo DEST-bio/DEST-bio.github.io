@@ -13,6 +13,8 @@ Insert summary info, citation, etc here
 
 Transfer About section here
 
+{% include map.html %}
+
 <img src="/assets/images/map-timeline.png" style="width:100%">
 
 ---
