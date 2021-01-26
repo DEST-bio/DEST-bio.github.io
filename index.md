@@ -13,7 +13,3 @@ permalink: /
 {% include map.html %}
 
 <img src="/assets/images/map-timeline.png" style="width:100%">
-
----
-
-Icons modified from [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](www.flaticon.com)
