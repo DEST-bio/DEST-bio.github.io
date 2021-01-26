@@ -9,9 +9,6 @@ permalink: /
 </head>
 
 # Welcome to the DEST Dataset
-Insert summary info, citation, etc here
-
-Transfer About section here
 
 {% include map.html %}
 

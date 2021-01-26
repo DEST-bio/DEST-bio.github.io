@@ -7,7 +7,7 @@
   },"1": {
     "doc": "DEST Browser",
     "title": "DEST Browser",
-    "content": "Embed DEST browser here . http://dest-bio.uab.cat . Browser link . ",
+    "content": "http://dest-bio.uab.cat . DEST Browser . ",
     "url": "http://localhost:4000/dest-browser",
     "relUrl": "/dest-browser"
   },"2": {
@@ -19,7 +19,7 @@
   },"3": {
     "doc": "Home",
     "title": "Welcome to the DEST Dataset",
-    "content": "Insert summary info, citation, etc here . Transfer About section here . Icons modified from Freepik from www.flaticon.com . ",
+    "content": ". Icons modified from Freepik from www.flaticon.com . ",
     "url": "http://localhost:4000/#welcome-to-the-dest-dataset",
     "relUrl": "/#welcome-to-the-dest-dataset"
   },"4": {
