@@ -10,6 +10,9 @@ permalink: /
 
 # Welcome to the DEST Dataset
 
+<br>
+Hover over the interactive map to explore the DEST metadata
+
 {% include map.html %}
 
 <img src="/assets/images/map-timeline.png" style="width:100%">
