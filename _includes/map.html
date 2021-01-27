@@ -1,13 +1,5 @@
 <!-- adapted from https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html -->
 <html>
-  <!-- Load d3.js and the geo projection plugin -->
-  <!-- Load d3.js -->
-  <script src="https://d3js.org/d3.v4.js"></script>
-  <script src="https://d3js.org/d3-geo-projection.v2.js"></script>
-  <script src="https://d3js.org/d3-array.v2.min.js"></script>
-  <script src="https://d3js.org/d3-geo.v2.min.js"></script>
-  <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
-
   <!-- Create an element where the map will take place -->
   <div id="my_dataviz"></div>
 
@@ -18,11 +10,16 @@
     }
   </style>
 
+  <!-- Load d3.js and the geo projection plugin -->
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.js"></script>
+  <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
   <script>
+
     /* size */
     var width = 460;
     var height = 400;
-    console.log("trying");
 
     /* the svg */
     var svg = d3
@@ -30,6 +27,13 @@
       .append("svg")
       .attr("width", width)
       .attr("height", height);
+    svg.call(
+      d3.zoom().on("zoom", function () {
+        svg.selectAll("path").attr("transform", d3.event.transform);
+        svg.selectAll("circle").attr("transform", d3.event.transform).attr("r", 7/d3.event.transform.k);
+        console.log(d3.event.transform.k);
+      })
+    );
 
     /* map and projection */
     var projection = d3
@@ -37,11 +41,14 @@
       .scale(width / 1.3 / Math.PI)
       .translate([width / 2, height / 2]);
 
+    /* zoom */
+    /*  const zoom = d3.zoom().scaleExtent([1, 8]).on("zoom", zoomed);
+    svg.call(zoom); */
+
     var markers = []; /* set an empty array first */
     d3.csv(
       "https://raw.githubusercontent.com/DEST-bio/DEST_freeze1/main/populationInfo/samps.csv",
       function (data) {
-        console.log("trying3");
         for (var i = 0; i < data.length - 1; i++) {
           /* exclude last element */
           var newPoint = {
@@ -51,7 +58,7 @@
             set: data[i].set,
           };
           markers.push(newPoint); /* Add new number to array */
-          console.log(newPoint);
+          /* console.log(newPoint); */
         }
       }
     );
