@@ -2,6 +2,7 @@
 <html>
   <!-- Create an element where the map will take place -->
   <div id="my_dataviz"></div>
+
   <button id="zoom-in">+</button>
   <button id="zoom-out">-</button>
 
@@ -105,13 +106,13 @@
               .style("padding", "5px")
               .style("width", "auto")
               .style("max-width", function(data){
-                return setWidth(data);
+                return maxWidth(data);
               });
 
             /* set tooltip width */
-            function setWidth(data) {
+            function maxWidth(data) {
               var divWidth = document.getElementById("my_dataviz").offsetWidth;
-              console.log(divWidth);
+              /* console.log(divWidth); */
               var max = divWidth - width;
               return max + "px";
             }

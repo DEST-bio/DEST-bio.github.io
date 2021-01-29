@@ -11,7 +11,25 @@ permalink: /
 # Welcome to the DEST Dataset
 
 <br>
-Hover over the interactive map to explore the DEST metadata
+Hover over the interactive map to explore the DEST metadata.
+<div id="key"></div>
+
+<script>
+/* map key */
+var key = document.getElementById("key");
+key
+  .createElement("div")
+  .setAttribute("style",
+    "width: 200px; float: right;
+     border: solid; border-width: 2px; border-radius: 5px;
+     padding: 5px;"
+  );
+key.html(
+  "• DGN" + "<br>" +
+  "• DrosEU" + "<br>" +
+  "• DrosRTEC"
+);
+</script>
 
 {% include map.html %}
 
