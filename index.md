@@ -33,4 +33,4 @@ key.html(
 
 {% include map.html %}
 
-<img src="/assets/images/map-timeline.png" style="width:100%">
+<!-- <img src="/assets/images/map-timeline.png" style="width:100%"> -->
