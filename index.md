@@ -12,25 +12,17 @@ permalink: /
 
 <br>
 Hover over the interactive map to explore the DEST metadata.
-<div id="key"></div>
 
-<script>
-/* map key */
-var key = document.getElementById("key");
-key
-  .createElement("div")
-  .setAttribute("style",
-    "width: 200px; float: right;
-     border: solid; border-width: 2px; border-radius: 5px;
-     padding: 5px;"
-  );
-key.html(
-  "• DGN" + "<br>" +
-  "• DrosEU" + "<br>" +
-  "• DrosRTEC"
-);
-</script>
+---
+<!-- key -->
+<div style="border:solid;border-radius:5px;width:200px">
+<b>Key: </b><br>
+<b style="color:#60B2E5">•</b>DGN <br>
+<b style="color:#EC9A29">•</b>DrosRTEC <br>
+<b style="color:#C492B1">•</b>DrosEU<br>
+</div>
 
 {% include map.html %}
+
 
 <!-- <img src="/assets/images/map-timeline.png" style="width:100%"> -->
