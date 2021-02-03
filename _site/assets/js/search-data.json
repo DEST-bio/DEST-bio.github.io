@@ -19,7 +19,7 @@
   },"3": {
     "doc": "Home",
     "title": "Welcome to the DEST Dataset",
-    "content": "Hover over the interactive map to explore the DEST metadata. + - . ",
+    "content": "Hover over the interactive map to explore the DEST metadata. Key: •DGN •DrosRTEC •DrosEU + - . ",
     "url": "http://localhost:4000/#welcome-to-the-dest-dataset",
     "relUrl": "/#welcome-to-the-dest-dataset"
   },"4": {
