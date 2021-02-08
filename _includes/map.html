@@ -62,13 +62,14 @@
               var newPoint = {
                 long: data[i].long,
                 lat: data[i].lat,
-                name: data[i].sampleId,
+                name: data[i].locality,
                 country: data[i].country,
                 city: data[i].city,
                 date: data[i].collectionDate,
                 pooled: data[i].type,
                 numFlies: data[i].nFlies,
                 set: data[i].set,
+                imgPath: "/assets/images/weatherPlots/" + data[i].stationId + ".jpg"
               };
               markers.push(newPoint); /* Add new number to array */
               /* console.log(newPoint); */
@@ -117,11 +118,12 @@
               return max + "px";
             }
 
-            /* Three function that change the tooltip when user hover / move / leave a cell */
+            /* Three functions that change the tooltip when user hover / move / leave a cell */
             var mouseover = function (data) {
               Tooltip.style("opacity", 1);
             };
             var mousemove = function (data) {
+              var clickFlag = false;
               Tooltip.html(
                 data.name +
                   "<br>" +
@@ -135,10 +137,12 @@
                   data.pooled +
                   "<br>" +
                   "<b>Num Flies: </b>" +
-                  data.numFlies
+                  data.numFlies +
+                  "<br>" +
+                  "<img src=" + data.imgPath + "/ style=float:right>"
               )
                 .style("left", d3.mouse(this)[0] + 10 + "px")
-                .style("top", d3.mouse(this)[1] + "px");
+                .style("top", d3.mouse(this)[1] + "px")
             };
             var mouseleave = function (data) {
               Tooltip.style("opacity", 0);
