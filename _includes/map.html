@@ -1,10 +1,10 @@
 <!-- adapted from https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html -->
 <html>
   <!-- Create an element where the map will take place -->
-  <div id="my_dataviz"></div>
-
-  <button id="zoom-in">+</button>
-  <button id="zoom-out">-</button>
+  <div id="my_dataviz">
+    <button id="zoom-in">+</button>
+    <button id="zoom-out">-</button>
+  </div>
 
   <style>
     .circle:hover {
@@ -20,7 +20,7 @@
   <script>
 
         /* size */
-        var width = 460;
+        var width = 700;
         var height = 400;
 
         /* the svg */
@@ -67,9 +67,9 @@
                 city: data[i].city,
                 date: data[i].collectionDate,
                 pooled: data[i].type,
-                numFlies: data[i].nFlies,
                 set: data[i].set,
-                imgPath: "/assets/images/weatherPlots/" + data[i].stationId + ".jpg"
+                weatherImgPath: "/assets/images/weatherPlots/" + data[i].stationId + ".jpg",
+                fliesImgPath: "/assets/images/fliesPlots/" + data[i].stationId + "_NFLIES.jpg"
               };
               markers.push(newPoint); /* Add new number to array */
               /* console.log(newPoint); */
@@ -98,31 +98,27 @@
               .select("#my_dataviz")
               .append("div")
               .attr("class", "tooltip")
-              .style("float", "right")
+              .style("float", "bottom")
               .style("opacity", 1)
               .style("background-color", "white")
               .style("border", "solid")
               .style("border-width", "2px")
               .style("border-radius", "5px")
               .style("padding", "5px")
-              .style("width", "auto")
-              .style("max-width", function(data){
-                return maxWidth(data);
-              });
+              .style("width", "auto");
 
             /* set tooltip width */
-            function maxWidth(data) {
+      /*      function maxWidth(data) {
               var divWidth = document.getElementById("my_dataviz").offsetWidth;
-              /* console.log(divWidth); */
               var max = divWidth - width;
               return max + "px";
-            }
+            } */
 
             /* Three functions that change the tooltip when user hover / move / leave a cell */
-            var mouseover = function (data) {
+            var mousemove = function (data) {
               Tooltip.style("opacity", 1);
             };
-            var mousemove = function (data) {
+            var mouseover = function (data) {
               var clickFlag = false;
               Tooltip.html(
                 data.name +
@@ -136,10 +132,9 @@
                   "<b>Pooled/Inbred: </b>" +
                   data.pooled +
                   "<br>" +
-                  "<b>Num Flies: </b>" +
-                  data.numFlies +
-                  "<br>" +
-                  "<img src=" + data.imgPath + " style=float:right>"
+                  "<b>Num Flies: </b> <br>" +
+                  "<img src=" + data.fliesImgPath + " width=50%>" +
+                  "<img src=" + data.weatherImgPath + " width=50%>"
               )
                 .style("left", d3.mouse(this)[0] + 10 + "px")
                 .style("top", d3.mouse(this)[1] + "px")
