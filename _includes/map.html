@@ -144,8 +144,17 @@
                 .style("left", d3.mouse(this)[0] + 10 + "px")
                 .style("top", d3.mouse(this)[1] + "px")
             };
-            var mouseleave = function (data) {
+          /*  var mouseleave = function (data) {
               Tooltip.style("opacity", 0);
+            }; */
+            var clickFlag = false;
+            var click = function(d) {
+              if(clickFlag){
+                Tooltip.hide(d);
+              }else{
+                Tooltip.show(d);
+              }
+              return clickFlag = !clickFlag;
             };
 
             /* Add circles: */
