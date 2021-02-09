@@ -33,7 +33,7 @@
         /* handling zoom */
         var zoom = d3.zoom().on("zoom", function () {
             svg.selectAll("path").attr("transform", d3.event.transform);
-            svg.selectAll("circle").attr("transform", d3.event.transform).attr("r", 7/d3.event.transform.k);
+            svg.selectAll("circle").attr("transform", d3.event.transform).attr("r", 7/d3.event.transform.k).attr("stroke-width", 3/d3.event.transform.k);
           /*   console.log(d3.event.transform.k); */
           });
         svg.call(zoom);
