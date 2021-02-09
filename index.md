@@ -11,7 +11,7 @@ permalink: /
 # Welcome to the DEST Dataset
 
 <br>
-Hover over the interactive map to explore the DEST metadata.
+Hover, click, and zoom on the interactive map to explore the DEST metadata. 
 
 ---
 <!-- key -->
