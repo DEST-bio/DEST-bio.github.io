@@ -65,7 +65,6 @@
                 name: data[i].locality,
                 country: data[i].country,
                 city: data[i].city,
-                date: data[i].collectionDate,
                 pooled: data[i].type,
                 set: data[i].set,
                 weatherImgPath: "/assets/images/weatherPlots/" + data[i].stationId + ".jpg",
@@ -125,9 +124,6 @@
                   "<br>" +
                   "<b>Location: </b>" +
                   data.city + ", " + data.country +
-                  "<br>" +
-                  "<b>Collection Date: </b>" +
-                  data.date +
                   "<br>" +
                   "<b>Pooled/Inbred: </b>" +
                   data.pooled +
