@@ -35,7 +35,7 @@ makePlot<- function(x){
   } else {
     #calculate the tavg if it doesn't already exist
     dat<- data.frame(ghcnd_search(currentStation,date_min = minDate, date_max=maxDate, var=c("TMAX","TMIN")))
-    dat$tavg<- ((dat$tmax.tmax -dat$tmin.tmin)/2)/10 # take average and divide by 10
+    dat$tavg<- ((dat$tmax.tmax + dat$tmin.tmin)/2)/10 # take average and divide by 10
     dat$date<- dat$tmin.date
     datIndex<- which(dat$date %in% dates) #subset all dates in the range to the collectionDate
   }
