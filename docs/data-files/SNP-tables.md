@@ -13,6 +13,7 @@ nav_order: 1
 {:toc}
 <br>
 ### bcf Files
+<a href="/assets/bcf.txt" download> Click for a .txt file with a list of all download links</a>
 
 | File Name                                    | Download       | Description   |
 |:----------------------------------------|:------------------|:------------------|
@@ -21,6 +22,7 @@ nav_order: 1
 | dest.all.PoolSNP.001.50.10Nov2020.header.bcf            | [Download](http://berglandlab.uvadcos.io/bcf/dest.all.PoolSNP.001.50.10Nov2020.header.bcf){: .btn .btn-primary }        | All samples using PoolSNP |
 
 ### gds Files
+<a href="/assets/gds.txt" download> Click for a .txt file with a list of all download links</a>
 
 | File Name                                    | Download       | Description   |
 |:----------------------------------------|:------------------|:------------------|
@@ -29,6 +31,7 @@ nav_order: 1
 | dest.all.PoolSNP.001.50.10Nov2020.ann.gds            | [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.10Nov2020.ann.gds){: .btn .btn-primary }        | |
 
 ### vcf Files
+<a href="/assets/vcf.txt" download> Click for a .txt file with a list of all download links</a>
 
 | File Name                                    | Download       | Description   |
 |:----------------------------------------|:------------------|:------------------|

@@ -1,0 +1,6 @@
+http://berglandlab.uvadcos.io/vcf/dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.vcf.gz
+http://berglandlab.uvadcos.io/vcf/dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.vcf.gz.tbi
+http://berglandlab.uvadcos.io/vcf/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.vcf.gz
+http://berglandlab.uvadcos.io/vcf/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.vcf.gz.tbi
+http://berglandlab.uvadcos.io/vcf/dest.all.PoolSNP.001.50.10Nov2020.ann.vcf.gz
+http://berglandlab.uvadcos.io/vcf/dest.all.PoolSNP.001.50.10Nov2020.ann.vcf.gz.tbi
