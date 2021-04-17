@@ -5,6 +5,7 @@ parent: Data Files
 permalink: /data-files/SNP-tables
 nav_order: 1
 ---
+<!-- MD5 hashes copied and pasted manually from MD5_bcf.txt, MD5_gds.txt, and MD5_vcf.txt -->
 ## SNP Tables
 {: .no_toc }
 
