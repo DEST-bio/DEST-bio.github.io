@@ -1,0 +1,6 @@
+http://berglandlab.uvadcos.io/gds/dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds
+09d4c7d0b7cfaedad4b33c31b6e82ead
+http://berglandlab.uvadcos.io/gds/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds
+b823c9df2fa85a043f7f5472c05d994e
+http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.10Nov2020.ann.gds
+e49a4a4f1ae3180a1394727c89d0a4eb

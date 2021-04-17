@@ -1,0 +1,11 @@
+bcf.txt
+gds.txt
+vcf.txt
+bed.gz.ALL.txt
+masked.sync.gz.ALL.txt
+masked.sync.gz.GZONLY.txt
+masked.sync.gz.TBIONLY.txt
+mel.bam.ALL.txt
+SNAPE.monomorphic.masked.sync.gz.ALL.txt
+SNAPE.monomorphic.masked.sync.gz.GZONLY.txt
+SNAPE.monomorphic.masked.sync.gz.TBIONLY.txt
