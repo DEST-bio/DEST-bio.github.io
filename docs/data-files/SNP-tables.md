@@ -14,7 +14,7 @@ nav_order: 1
 {:toc}
 <br>
 ### bcf Files
-<a href="/assets/bcf.txt" download> Click for a .txt file with a list of all download links</a>
+<a href="/assets/bcf.txt" download> Click to download a .txt file with a list of all download links</a>
 
 | File Name                                    | Download       | Description   | MD5 Hash |
 |:----------------------------------------|:------------------|:------------------|:-------------|
@@ -23,7 +23,7 @@ nav_order: 1
 | dest.all.PoolSNP.001.50.10Nov2020.header.bcf            | [Download](http://berglandlab.uvadcos.io/bcf/dest.all.PoolSNP.001.50.10Nov2020.header.bcf){: .btn .btn-primary }        | All samples using PoolSNP | 2ab95be6888af37d718b8b458f5213b8 |
 
 ### gds Files
-<a href="/assets/gds.txt" download> Click for a .txt file with a list of all download links</a>
+<a href="/assets/gds.txt" download> Click to download a .txt file with a list of all download links</a>
 
 | File Name                                    | Download       | MD5 Hash   |
 |:----------------------------------------|:------------------|:------------------|
@@ -32,7 +32,7 @@ nav_order: 1
 | dest.all.PoolSNP.001.50.10Nov2020.ann.gds            | [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.10Nov2020.ann.gds){: .btn .btn-primary }        | e49a4a4f1ae3180a1394727c89d0a4eb |
 
 ### vcf Files
-<a href="/assets/vcf.txt" download> Click for a .txt file with a list of all download links</a>
+<a href="/assets/vcf.txt" download> Click to download a .txt file with a list of all download links</a>
 
 | File Name                                    | Download       | MD5 Hash   |
 |:----------------------------------------|:------------------|:------------------|
