@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources + Consortia
-nav_order: 4
+nav_order: 5
 permalink: /resources
 ---
 # DrosEU
