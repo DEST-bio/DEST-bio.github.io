@@ -1,0 +1,7 @@
+bcf.txt
+gds.txt
+vcf.txt
+bed.gz.ALL.txt
+masked.sync.gz.ALL.txt
+mel.bam.ALL.txt
+SNAPE.monomorphic.masked.sync.gz.ALL.txt

@@ -1,0 +1,190 @@
+<!-- adapted from https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html -->
+<html>
+  <!-- Create an element where the map will take place -->
+  <div id="my_dataviz">
+    <button id="zoom-in">+</button>
+    <button id="zoom-out">-</button>
+  </div>
+
+  <style>
+    .circle:hover {
+      stroke: black;
+    }
+  </style>
+
+  <!-- Load d3.js and the geo projection plugin -->
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+
+  <script>
+
+        /* size */
+        var width = 700;
+        var height = 400;
+
+        /* the svg */
+        var svg = d3
+          .select("#my_dataviz")
+          .append("svg")
+          .attr("width", width)
+          .attr("height", height);
+
+        /* handling zoom */
+        var zoom = d3.zoom().on("zoom", function () {
+            svg.selectAll("path").attr("transform", d3.event.transform);
+            svg.selectAll("circle").attr("transform", d3.event.transform).attr("r", 7/d3.event.transform.k).attr("stroke-width", 3/d3.event.transform.k);
+          /*   console.log(d3.event.transform.k); */
+          });
+        svg.call(zoom);
+
+        /* zoom buttons */
+        /* adapted from http://bl.ocks.org/flacoman91/00d986b6e02ee418c9e195a8390219c5 */
+        d3.select('#zoom-in').on('click', function() {
+          zoom.scaleBy(svg, 1.3);
+        });
+        d3.select('#zoom-out').on('click', function() {
+          zoom.scaleBy(svg, 1 / 1.3);
+        });
+
+        /* map and projection */
+        var projection = d3
+          .geoNaturalEarth2()
+          .scale(width / 1.3 / Math.PI)
+          .translate([width / 2, height / 2]);
+
+        var markers = []; /* set an empty array first */
+        d3.csv(
+          "https://raw.githubusercontent.com/DEST-bio/DEST_freeze1/main/populationInfo/samps.csv",
+          function (data) {
+            for (var i = 0; i < data.length - 1; i++) {
+              /* exclude last element */
+              var newPoint = {
+                long: data[i].long,
+                lat: data[i].lat,
+                name: data[i].locality,
+                country: data[i].country,
+                city: data[i].city,
+                pooled: data[i].type,
+                set: data[i].set,
+                weatherImgPath: "/assets/images/weatherPlots/" + data[i].stationId + ".jpg",
+                fliesImgPath: "/assets/images/fliesPlots/" + data[i].stationId + "_NFLIES.jpg"
+              };
+              markers.push(newPoint); /* Add new number to array */
+              /* console.log(newPoint); */
+            }
+          }
+        );
+
+        /* Load external data and boot */
+        d3.json(
+          "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
+          function (data) {
+            /* Draw the map */
+            svg
+              .append("g")
+              .selectAll("path")
+              .data(data.features)
+              .enter()
+              .append("path")
+              .attr("fill", "#b8b8b8")
+              .attr("d", d3.geoPath().projection(projection))
+              .style("stroke", "black")
+              .style("opacity", 0.3);
+
+            /* create a tooltip */
+            var Tooltip = d3
+              .select("#my_dataviz")
+              .append("div")
+              .attr("class", "tooltip")
+              .style("float", "bottom")
+              .style("opacity", 1)
+              .style("background-color", "white")
+              .style("border", "solid")
+              .style("border-width", "2px")
+              .style("border-radius", "5px")
+              .style("padding", "5px")
+              .style("width", "auto");
+
+            /* set tooltip width */
+      /*      function maxWidth(data) {
+              var divWidth = document.getElementById("my_dataviz").offsetWidth;
+              var max = divWidth - width;
+              return max + "px";
+            } */
+
+            /* Three functions that change the tooltip when user hover / move / leave a cell */
+            var mousemove = function (data) {
+              Tooltip.style("opacity", 1);
+            };
+            var mouseover = function (data) {
+              var clickFlag = false;
+              Tooltip.html(
+                data.name +
+                  "<br>" +
+                  "<b>Location: </b>" +
+                  data.city + ", " + data.country +
+                  "<br>" +
+                  "<b>Pooled/Inbred: </b>" +
+                  data.pooled +
+                  "<br>" +
+                  "<b>Num Flies and Weather Plots: </b> <br>" +
+                  "<img src=" + data.fliesImgPath + " width=50%>" +
+                  "<img src=" + data.weatherImgPath + " width=50%>"
+              )
+                .style("left", d3.mouse(this)[0] + 10 + "px")
+                .style("top", d3.mouse(this)[1] + "px")
+            };
+          /*  var mouseleave = function (data) {
+              Tooltip.style("opacity", 0);
+            }; */
+            var clickFlag = false;
+            var click = function(d) {
+              if(clickFlag){
+                Tooltip.hide(d);
+              }else{
+                Tooltip.show(d);
+              }
+              return clickFlag = !clickFlag;
+            };
+
+            /* Add circles: */
+            svg
+              .selectAll("myCircles")
+              .data(markers)
+              .enter()
+              .append("circle")
+              .attr("cx", function (data) {
+                return projection([data.long, data.lat])[0];
+              })
+              .attr("cy", function (data) {
+                return projection([data.long, data.lat])[1];
+              })
+              .attr("r", 7)
+              .attr("class", "circle")
+              .style("fill", "FFE66D")
+              .attr("stroke", function (data) {
+                return colorDot(data.set);
+              })
+              .attr("stroke-width", 3)
+              .attr("fill-opacity", 0.4)
+              .on("mouseover", mouseover)
+              .on("mousemove", mousemove)
+              .on("mouseleave", mouseleave);
+
+            /* function to set the color of the dot */
+            function colorDot(set) {
+              if (set == "dgn") {
+                return "#60B2E5";
+              } else if (set == "DrosRTEC") {
+                return "#EC9A29";
+              } else if (set == "DrosEU") {
+                return "#C492B1";
+              } else {
+                return "#ffffff";
+              }
+            }
+          }
+        );
+  </script>
+</html>

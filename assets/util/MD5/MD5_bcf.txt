@@ -1,0 +1,6 @@
+http://berglandlab.uvadcos.io/bcf/dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf
+07bc5fec3c244ed10b512e51d0a86b4c
+http://berglandlab.uvadcos.io/bcf/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf
+8cc32fbccdb952b68b9d4a941992510b
+http://berglandlab.uvadcos.io/bcf/dest.all.PoolSNP.001.50.10Nov2020.header.bcf
+2ab95be6888af37d718b8b458f5213b8

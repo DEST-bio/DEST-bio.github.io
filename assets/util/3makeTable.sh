@@ -41,8 +41,8 @@ awk -F"," '{
 cat temp.csv > SNAPE.monomorphic.masked.sync.gz.csv
 
 awk 'BEGIN{FS=OFS=","} {
-  print $3 FS "[Download]("$1")\{: .btn .btn-purple \}" FS $4
-}' masked.sync.gz.csv > SNAPE.monomorphic.masked.sync.gz.TOMARKDOWN.csv
+  print $3 FS "[Download]("$1")\{: .btn .btn-purple \}" "," $2
+}' SNAPE.monomorphic.masked.sync.gz.csv > SNAPE.monomorphic.masked.sync.gz.TOMARKDOWN.csv
 
 #### same with mel.bam
 cat mel.bam.csv |
