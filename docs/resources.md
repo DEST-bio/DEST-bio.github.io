@@ -1,11 +1,20 @@
 ---
 layout: default
-title: Resources + Consortia
+title: About
 nav_order: 5
 permalink: /resources
 ---
-# DrosEU
+# About
 ---
+
+The DEST consortium is led by:
+Martin Kapun
+Alan Bergland
+Dmitri Petrov
+Paul Schmidt
+Josefa Gonzalez
+
+This website is built and maintained by the [Bergland lab](https://bergland-lab.org).
 
 For more Drosophila genome alignment data: <br>
 

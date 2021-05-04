@@ -8,6 +8,8 @@ permalink: /
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
-# Welcome to the DEST Dataset
+# Drosophila Evolution over Space and Time
 
-<img src="/assets/images/map-timeline.png" style="width:100%">
+This website houses links to data of genome-wide allele frequency estimates from >270 population based samples of D. melanogaster. Collectively, this dataset is based on sequencing of >13,000 flies collected arond the world and over nearly a decade.
+
+<img src="/assets/images/map-timeline.png" style="width:75%">
