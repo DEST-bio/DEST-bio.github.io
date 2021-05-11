@@ -10,4 +10,4 @@ nav_order: 4
 Click the button below to link to the data table containing the metadata for all of the DEST samples.
 
 
-[Main metadata table](https://github.com/DEST-bio/DEST_freeze1/blob/main/populationInfo/samps_10Nov2020){:.btn}
+[Main metadata table](https://github.com/DEST-bio/DEST_freeze1/blob/main/populationInfo/samps_10Nov2020.csv){:.btn}
