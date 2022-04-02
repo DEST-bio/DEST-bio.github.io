@@ -13,6 +13,7 @@ The DEST consortium is led by:
   * Dmitri Petrov <br>
   * Paul Schmidt <br>
   * Josefa Gonzalez <br>
+  * Thomas Flatt <br>
 
 Check out the consortia that this project is a part of: <br>
 
