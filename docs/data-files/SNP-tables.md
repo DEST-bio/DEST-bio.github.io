@@ -19,12 +19,12 @@ nav_order: 1
 
 You can also download all files including SNP tables using Globus (it is free). The shared link is <a href="https://app.globus.org/file-manager?origin_id=101f00e8-a4f3-4a48-ba85-1d4174e15772&origin_path=%2F">here</a>. You can learn how to set up a personal Globus account <a href="https://www.rc.virginia.edu/userinfo/globus/">here</a>.
 
-| File Name                                    | Download       | Description   | MD5 Hash   |
-|:----------------------------------------|:------------------|:------------------|
-| dest.all.PoolSNP.001.50.8Jun2023.norep.AT_EScorrect.ann.gds             | [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.8Jun2023.norep.AT_EScorrect.ann.gds){: .btn .btn-primary }     | DEST_V2 - current version | 6a0678bc7bd4da74dd3cb2a34bd1b50f |
-| dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds              | [Download](http://berglandlab.uvadcos.io/gds/dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds){: .btn .btn-primary }     | DEST_V1 | 09d4c7d0b7cfaedad4b33c31b6e82ead |
-| dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds | [Download](http://berglandlab.uvadcos.io/gds/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds){: .btn .btn-primary }    | DEST_V1 | b823c9df2fa85a043f7f5472c05d994e |
-| dest.all.PoolSNP.001.50.10Nov2020.ann.gds            | [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.10Nov2020.ann.gds){: .btn .btn-primary }        | DEST_V1 | e49a4a4f1ae3180a1394727c89d0a4eb |
+| File Name                                    | Download       | Description   | MD5 Hash   | Size   |
+|:----------------------------------------|:------------------|:------------------|:--------|
+| dest.all.PoolSNP.001.50.8Jun2023.norep.AT_EScorrect.ann.gds| [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.8Jun2023.norep.AT_EScorrect.ann.gds){: .btn .btn-primary }     | DEST_V2 - current version | 6a0678bc7bd4da74dd3cb2a34bd1b50f | 11G  |
+| dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds              | [Download](http://berglandlab.uvadcos.io/gds/dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds){: .btn .btn-primary }     | DEST_V1 | 09d4c7d0b7cfaedad4b33c31b6e82ead | 3.5G  |
+| dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds | [Download](http://berglandlab.uvadcos.io/gds/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds){: .btn .btn-primary }    | DEST_V1 | b823c9df2fa85a043f7f5472c05d994e | 21G  |
+| dest.all.PoolSNP.001.50.10Nov2020.ann.gds            | [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.10Nov2020.ann.gds){: .btn .btn-primary }        | DEST_V1 | e49a4a4f1ae3180a1394727c89d0a4eb | 4G  |
 
 ### vcf Files
 <a href="/assets/vcf.txt" download> Click to download a .txt file with a list of all download links</a>
