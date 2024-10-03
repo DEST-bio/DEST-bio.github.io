@@ -21,7 +21,7 @@ You can also download all files including SNP tables using Globus (it is free). 
 
 | File Name                                    | Download       | Description   | MD5 Hash   | Size   |
 |:----------------------------------------|:------------------|:------------------|:--------|
-| dest.all.PoolSNP.001.50.3May2024.ann.gds| [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.3May2024.ann.gds){: .btn .btn-primary }     | DEST_V2 - current version | 3bc79002613b721a37123fcd80142643 | 11G  |
+| dest.all.PoolSNP.001.50.3May2024.ann.gds| [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.3May2024.ann.gds){: .btn .btn-primary }     | DEST_V2 - current version! | 3bc79002613b721a37123fcd80142643 | 11G  |
 | dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds              | [Download](http://berglandlab.uvadcos.io/gds/dest.PoolSeq.PoolSNP.001.50.10Nov2020.ann.gds){: .btn .btn-primary }     | DEST_V1 | 09d4c7d0b7cfaedad4b33c31b6e82ead | 3.5G  |
 | dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds | [Download](http://berglandlab.uvadcos.io/gds/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.ann.gds){: .btn .btn-primary }    | DEST_V1 | b823c9df2fa85a043f7f5472c05d994e | 21G  |
 | dest.all.PoolSNP.001.50.10Nov2020.ann.gds            | [Download](http://berglandlab.uvadcos.io/gds/dest.all.PoolSNP.001.50.10Nov2020.ann.gds){: .btn .btn-primary }        | DEST_V1 | e49a4a4f1ae3180a1394727c89d0a4eb | 4G  |
