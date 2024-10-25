@@ -9,6 +9,7 @@ has_toc: false
 
 # Data Files
 
+<img src="/assets/images/Collection_map.png" style="width:100%">
 
 | folder                                  | description       |
 |:----------------------------------------|:------------------|
