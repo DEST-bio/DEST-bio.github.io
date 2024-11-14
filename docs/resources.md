@@ -17,7 +17,7 @@ The DEST consortium is led by:
 
 Check out the consortia that this project is a part of: <br>
 
-  [DrosEU](droseu.net){:.btn} <br>
+  [DrosEU](https://droseu.net){:.btn} <br>
   [DrosRTEC](https://web.sas.upenn.edu/paul-schmidt-lab/dros-rtec/){:.btn}
 
 For more Drosophila genome alignment data: <br>
