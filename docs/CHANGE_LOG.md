@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Changelog
+title: Release Notes
 nav_order: 6
 permalink: /changelog
 ---
-# Changelog
+# Release Notes
 ---
 
 ### 24 August 2024
@@ -13,7 +13,6 @@ permalink: /changelog
 * sample metadata fixed: `DESTv2/populationInfo/scripts/update_sampleMetaData_26August2024.R`
 * VCF/GDS fixed: `DESTv2/populationInfo/scripts/update_DataFiles_26August2024.sh`
 * mapping output renamed: `DESTv2/populationInfo/scripts/update_pipelineOutputNames_24August2024.sh`
- 
 
 ### 3 May 2024
 * Update the metadata to include standardized baits and country codes
