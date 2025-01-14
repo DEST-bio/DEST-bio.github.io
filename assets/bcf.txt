@@ -1,3 +1,3 @@
-http://berglandlab.uvadcos.io/bcf/dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf
-http://berglandlab.uvadcos.io/bcf/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf
-http://berglandlab.uvadcos.io/bcf/dest.all.PoolSNP.001.50.10Nov2020.header.bcf
+https://berglandlab.pods.uvarc.io/bcf/dest.PoolSeq.PoolSNP.001.50.10Nov2020.header.bcf
+https://berglandlab.pods.uvarc.io/bcf/dest.PoolSeq.SNAPE.NA.NA.10Nov2020.header.bcf
+https://berglandlab.pods.uvarc.io/bcf/dest.all.PoolSNP.001.50.10Nov2020.header.bcf
