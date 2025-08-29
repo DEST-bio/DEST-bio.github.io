@@ -18,8 +18,9 @@ There are two ways to access all of the pipeline output:
 2. Use the pass-through website. <a href="https://berglandlab.pods.uvarc.io/">https://berglandlab.pods.uvarc.io/</a>
 <br>
 
-The links in the SNP table & metadata sections are accurate and up to date. <br>
-The links in the SYNC, BAM, BED, and Pipeline Output section are incomplete. <br>
+The links in the SNP table & metadata sections are accurate and up to date (DESTv1 and DESTv2). <br>
+The links in the SYNC, BAM, BED, and Pipeline Output section are incomplete (DESTv1 only). <br>
+A file with the URLS for all BAM files is <a href="https://berglandlab.pods.uvarc.io/dest_mapped/local.addresses.DEST2.0.txt">available here</a><br>
 
 | folder                                  | description       |
 |:----------------------------------------|:------------------|
