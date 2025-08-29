@@ -18,8 +18,9 @@ There are two ways to access all of the pipeline output:
 2. Use the pass-through website. <a href="https://berglandlab.pods.uvarc.io/">https://berglandlab.pods.uvarc.io/</a>
 <br>
 
-The links in the SNP table & metadata sections are accurate and up to date.
-The links in the SYNC, BAM, BED, and Pipeline Output section are incomplete.
+The links in the SNP table & metadata sections are accurate and up to date. <br>
+The links in the SYNC, BAM, BED, and Pipeline Output section are incomplete. <br>
+
 | folder                                  | description       |
 |:----------------------------------------|:------------------|
 | [SNP Tables](/data-files/SNP-tables)                 | Final SNP tables for PoolSNP and SNAPE (VCF/BCF/GDS) |
